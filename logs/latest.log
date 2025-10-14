@@ -1,0 +1,381 @@
+[15:15:07] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.17.3
+[15:15:07] [ForkJoinPool-1-worker-3/WARN]: Mod spellbound_weapons_mr uses the version 4.1.0c which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0c'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[15:15:07] [ForkJoinPool-1-worker-1/WARN]: Mod tectonic uses the version 2.4.1a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[15:15:07] [main/WARN]: Warnings were found!
+ - Mod 'Forge Config API Port' (forgeconfigapiport) 21.0.8 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+[15:15:07] [main/INFO]: Loading 126 mods:
+	- balm 21.0.41
+	   \-- kuma_api 21.0.5
+	- beautify 1.3.0+1.21.1
+	- biolith 3.0.0
+	- brainierbees 1.6
+	- cardinal-components 6.1.2
+	   |-- cardinal-components-base 6.1.2
+	   |-- cardinal-components-block 6.1.2
+	   |-- cardinal-components-chunk 6.1.2
+	   |-- cardinal-components-entity 6.1.2
+	   |-- cardinal-components-item 6.1.2
+	   |-- cardinal-components-level 6.1.2
+	   |-- cardinal-components-scoreboard 6.1.2
+	   \-- cardinal-components-world 6.1.2
+	- cloth-config 15.0.140
+	   \-- cloth-basic-math 0.6.1
+	- corndelight 1.21-1.0.0
+	- create_ufoport 0.9.3-a
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- commons-logging_commons-logging 1.3.3
+	   |-- create 0.9.3-a
+	   |-- flywheel 0.9.0-a
+	   |-- milk 1.5.0
+	   |-- porting_lib 2.7.0
+	   \-- registrate-fabric 1.6.0
+	- emi 1.1.12+1.21+fabric
+	- entityculling 1.7.1
+	- etherology 1.21-0.1.5
+	   |-- mixinsquared 0.2.0-beta.6
+	   \-- mm 2.3
+	- fabric-api 0.102.0+1.21
+	   |-- fabric-api-base 0.4.42+6573ed8cd1
+	   |-- fabric-api-lookup-api-v1 1.6.68+b5597344d1
+	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bcd1
+	   |-- fabric-block-api-v1 1.0.22+0af3f5a7d1
+	   |-- fabric-block-view-api-v2 1.0.10+6573ed8cd1
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a7d1
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8cd1
+	   |-- fabric-command-api-v1 1.2.49+f71b366fd1
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd9d1
+	   |-- fabric-commands-v0 0.2.66+df3654b3d1
+	   |-- fabric-content-registries-v0 8.0.16+b5597344d1
+	   |-- fabric-convention-tags-v1 2.0.19+7f945d5bd1
+	   |-- fabric-convention-tags-v2 2.5.0+c5e2b5c6d1
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a7d1
+	   |-- fabric-data-attachment-api-v1 1.1.27+6a6dfa19d1
+	   |-- fabric-data-generation-api-v1 20.2.16+16c4ae25d1
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b99d1
+	   |-- fabric-entity-events-v1 1.6.12+6fc22b99d1
+	   |-- fabric-events-interaction-v0 0.7.12+ba9dae06d1
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd9d1
+	   |-- fabric-item-api-v1 11.0.0+afdfc921d1
+	   |-- fabric-item-group-api-v1 4.1.4+78017270d1
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a7d1
+	   |-- fabric-keybindings-v0 0.2.45+df3654b3d1
+	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df360d1
+	   |-- fabric-loot-api-v2 3.0.14+3f89f5a5d1
+	   |-- fabric-loot-api-v3 1.0.2+3f89f5a5d1
+	   |-- fabric-message-api-v1 6.0.13+6573ed8cd1
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6bd1
+	   |-- fabric-networking-api-v1 4.2.2+60c3209bd1
+	   |-- fabric-object-builder-api-v1 15.2.0+a551f7a4d1
+	   |-- fabric-particles-v1 4.0.2+6573ed8cd1
+	   |-- fabric-recipe-api-v1 5.0.12+65089712d1
+	   |-- fabric-registry-sync-v0 5.1.2+60c3209bd1
+	   |-- fabric-renderer-api-v1 3.4.0+c705a49cd1
+	   |-- fabric-renderer-indigo 1.7.0+c705a49cd1
+	   |-- fabric-renderer-registries-v1 3.2.68+df3654b3d1
+	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2ed1
+	   |-- fabric-rendering-fluids-v1 3.1.6+b5597344d1
+	   |-- fabric-rendering-v0 1.1.71+df3654b3d1
+	   |-- fabric-rendering-v1 5.0.5+df16efd0d1
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b1d1
+	   |-- fabric-resource-loader-v0 1.3.0+56599129d1
+	   |-- fabric-screen-api-v1 2.0.24+b5597344d1
+	   |-- fabric-screen-handler-api-v1 1.3.86+b5597344d1
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8cd1
+	   |-- fabric-transfer-api-v1 5.1.16+3dccd343d1
+	   \-- fabric-transitive-access-wideners-v1 6.1.0+176f9036d1
+	- fabricloader 0.17.3
+	   \-- mixinextras 0.5.0
+	- fabricshieldlib 1.7.2-1.21.1
+	   |-- midnightlib 1.5.8
+	   \-- mm 2.3
+	- fancydelight 1.0.0
+	- farmersdelight 1.21.1-3.1.2+refabricated
+	   \-- mm 2.3
+	- forgeconfigapiport 21.0.8
+	   |-- com_electronwill_night-config_core 3.8.0
+	   \-- com_electronwill_night-config_toml 3.8.0
+	- geckolib 4.5.8
+	- java 21
+	- jumpprooffarmland 1.21-1.0.2
+	- minecraft 1.21
+	- moredelight 25.7.28-1.21-fabric
+	- mr_create_renewablebrass 1.0.1
+	- mr_create_renewablediamonds 1.0.0
+	- mr_create_renewablenetherite 2.0.0
+	- mr_create_stones 2.0.0
+	- mr_farmers_cuttingregionsunexplored 1.21.1-1.1a-fabric
+	- mr_guns 5.7.3
+	- mr_lock_andtrialkey 1.0.0
+	- mr_netherracked 1.0.3
+	- owo 0.12.15+1.21
+	   |-- io_wispforest_endec 0.1.5
+	   |-- io_wispforest_endec_gson 0.1.3
+	   |-- io_wispforest_endec_jankson 0.1.3
+	   \-- io_wispforest_endec_netty 0.1.2
+	- puzzleslib 21.0.28
+	- regions_unexplored 0.5.6.1
+	- rusticdelight 1.4.1
+	- spellbound_weapons_mr 4.1.0c
+	- stendhal 1.4.1-1.21
+	   \-- libgui 11.0.0+1.21
+	        |-- jankson 8.0.0+j1.2.3
+	        |    \-- blue_endless_jankson 1.2.3
+	        \-- libninepatch 1.2.0
+	- storagedelight 25.6.24-1.21-fabric
+	- tectonic 2.4.1a
+	- terrablender 4.0.0.2
+	- trinkets 3.10.0
+	- waystones 21.1.19
+	- wildfire_gender 3.2.1+1.21
+	- wover 21.0.13
+	   |-- wover-biome 21.0.13
+	   |-- wover-block 21.0.13
+	   |-- wover-common 21.0.13
+	   |-- wover-core 21.0.13
+	   |-- wover-datagen 21.0.13
+	   |-- wover-events 21.0.13
+	   |-- wover-feature 21.0.13
+	   |-- wover-generator 21.0.13
+	   |-- wover-item 21.0.13
+	   |-- wover-math 21.0.13
+	   |-- wover-preset 21.0.13
+	   |-- wover-recipe 21.0.13
+	   |-- wover-structure 21.0.13
+	   |-- wover-surface 21.0.13
+	   |-- wover-tag 21.0.13
+	   |-- wover-ui 21.0.13
+	   \-- wunderlib 21.0.8
+[15:15:07] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/maincraft/fabric_1_21/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[15:15:08] [main/INFO]: Compatibility level set to JAVA_17
+[15:15:08] [main/INFO]: Compatibility level set to JAVA_21
+[15:15:08] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:15:09] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[15:15:09] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[15:15:09] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[15:15:09] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[15:15:09] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+[15:15:09] [main/WARN]: Error loading class: net/minecraft/class_471 (java.lang.ClassNotFoundException: net/minecraft/class_471)
+[15:15:09] [main/WARN]: @Mixin target net.minecraft.class_471 was not found stendhal.mixins.json:AnvilScreenMixin from mod stendhal
+[15:15:09] [main/WARN]: Error loading class: net/minecraft/class_473 (java.lang.ClassNotFoundException: net/minecraft/class_473)
+[15:15:09] [main/WARN]: @Mixin target net.minecraft.class_473 was not found stendhal.mixins.json:BookEditScreenMixin from mod stendhal
+[15:15:09] [main/WARN]: Error loading class: net/minecraft/class_3872 (java.lang.ClassNotFoundException: net/minecraft/class_3872)
+[15:15:09] [main/WARN]: @Mixin target net.minecraft.class_3872 was not found stendhal.mixins.json:BookScreenMixin from mod stendhal
+[15:15:09] [main/WARN]: Error loading class: net/minecraft/class_408 (java.lang.ClassNotFoundException: net/minecraft/class_408)
+[15:15:09] [main/WARN]: @Mixin target net.minecraft.class_408 was not found stendhal.mixins.json:ChatScreenMixin from mod stendhal
+[15:15:09] [main/WARN]: Error loading class: net/minecraft/class_7743 (java.lang.ClassNotFoundException: net/minecraft/class_7743)
+[15:15:09] [main/WARN]: @Mixin target net.minecraft.class_7743 was not found stendhal.mixins.json:SignEditScreenMixin from mod stendhal
+[15:15:10] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[15:15:12] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib::handler$bfp000$porting_lib$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[15:15:23] [main/INFO]: Biolith for Fabric is initializing...
+[15:15:23] [main/INFO]: Enabling Biolith's TerraBlender compatibility layer.
+[15:15:27] [main/INFO]: Processing wover.datapack.registry Entrypoints
+[15:15:27] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.BiomeDatapackRegistryEntrypoint
+[15:15:27] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.FeatureDatapackRegistryEntrypoint
+[15:15:27] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.ItemDatapackRegistryEntrypoint
+[15:15:27] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.StructureDatapackRegistryEntrypoint
+[15:15:27] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.SurfaceDatapackRegistryEntrypoint
+[15:15:31] [main/INFO]: Fabric Shield Lib Initialized!
+[15:15:31] [main/INFO]: Registering ModItems forfancydelight
+[15:15:31] [main/INFO]: Registering ModBlocks for fancydelight
+[15:15:31] [main/INFO]: Registering ItemGroups for fancydelight
+[15:15:31] [main/INFO]: Loaded config farmersdelight-common.json
+[15:15:32] [main/INFO]: Mod loaded
+[15:15:32] [main/INFO]: Definitely not up to no good
+[15:15:32] [main/INFO]: who invited dafuqs
+[15:15:32] [main/INFO]: Constructing common components for puzzleslib:main
+[15:15:32] [main/INFO]: [Regions Unexplored] generating and loading config
+[15:15:32] [main/INFO]: Initializing Regions Unexplored from Fabric Mod Initializer entrypoint.
+[15:15:33] [main/INFO]: Registering items for rusticdelight
+[15:15:33] [main/INFO]: Registering blocks for rusticdelight
+[15:15:33] [main/INFO]: Registering potions for rusticdelight
+[15:15:33] [main/INFO]: Registering biome modifications for rusticdelight
+[15:15:33] [main/INFO]: Registering item group for rusticdelight
+[15:15:33] [main/INFO]: [Stendhal] Initializing
+[15:15:33] [main/INFO]: Registering furniture fuels for storagedelight
+[15:15:33] [main/INFO]: Already initialized Regions Unexplored from Fabric Mod Initializer entrypoint.
+[15:15:33] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[15:15:33] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[15:15:33] [main/INFO]: Registered region regions_unexplored:primary to index 1 for type OVERWORLD
+[15:15:33] [main/INFO]: Registered region regions_unexplored:secondary to index 2 for type OVERWORLD
+[15:15:33] [main/INFO]: Registered region regions_unexplored:nether to index 1 for type NETHER
+[15:15:34] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:15:36] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (1b1f4d1a)
+[15:15:36] [main/INFO]: Unable to build Biome List yet
+[15:15:36] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[15:15:36] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[15:15:36] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (5bb266a7)
+[15:15:36] [main/INFO]: Unable to build Biome List yet
+[15:15:36] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[15:15:36] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[15:15:36] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (1ed1dff)
+[15:15:36] [main/INFO]: Unable to build Biome List yet
+[15:15:36] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[15:15:36] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[15:15:36] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (76ff33be)
+[15:15:36] [main/INFO]: Unable to build Biome List yet
+[15:15:36] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[15:15:36] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[15:15:36] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (a5d07f8)
+[15:15:36] [main/INFO]: Unable to build Biome List yet
+[15:15:36] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[15:15:36] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[15:15:36] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (36305903)
+[15:15:36] [main/INFO]: Unable to build Biome List yet
+[15:15:36] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[15:15:36] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[15:15:37] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (31d2ca6c)
+[15:15:37] [main/INFO]: Unable to build Biome List yet
+[15:15:37] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[15:15:37] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[15:15:37] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (209751ac)
+[15:15:37] [main/INFO]: Unable to build Biome List yet
+[15:15:37] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[15:15:37] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[15:15:39] [Worker-Main-2/ERROR]: Couldn't load tag wover:vegetation/plant as it is missing following references: #wover:vegetation/vine (from wover-tag)
+[15:15:39] [Worker-Main-3/ERROR]: Invalid path in mod resource-pack spellbound_weapons_mr: spellbound_weapons:advancement/magmus_charger copy.json, ignoring
+[15:15:40] [main/ERROR]: Parsing error loading recipe farmersdelight:integration/create/filling/chocolate_pie
+com.google.gson.JsonParseException: No key fluid in MapLike[{"type":"fluid_tag","amount":500,"fluid_tag":"c:chocolates"}]; No key fluidTag in MapLike[{"type":"fluid_tag","amount":500,"fluid_tag":"c:chocolates"}]; Failed to parse either. First: Input does not contain a key [fabric:type]: MapLike[{"type":"fluid_tag","amount":500,"fluid_tag":"c:chocolates"}]; Second: Failed to parse either. First: Not a json array: {"type":"fluid_tag","amount":500,"fluid_tag":"c:chocolates"}; Second: No key tag in MapLike[{"type":"fluid_tag","amount":500,"fluid_tag":"c:chocolates"}]; No key item in MapLike[{"type":"fluid_tag","amount":500,"fluid_tag":"c:chocolates"}]
+	at knot/com.mojang.serialization.DataResult$Error.mdd77c32$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:506) [fabric-loader-0.17.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) [fabric-loader-0.17.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.17.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.17.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.21-loader.0.17.3-launcher.1.1.0.jar:1.1.0]
+[15:15:40] [main/ERROR]: Parsing error loading recipe fcru:small_oak_wood
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: regions_unexplored:stripped_small_oak_wood; Failed to parse either. First: Input does not contain a key [fabric:type]: MapLike[{"item":"regions_unexplored:small_oak_wood"}]; Second: Failed to parse either. First: Not a json array: {"item":"regions_unexplored:small_oak_wood"}; Second: No key tag in MapLike[{"item":"regions_unexplored:small_oak_wood"}]; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: regions_unexplored:small_oak_wood; No ingredients for cutting recipe
+	at knot/com.mojang.serialization.DataResult$Error.mdd77c32$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:506) [fabric-loader-0.17.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) [fabric-loader-0.17.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.17.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.17.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.21-loader.0.17.3-launcher.1.1.0.jar:1.1.0]
+[15:15:40] [main/ERROR]: Parsing error loading recipe farmersdelight:integration/create/mixing/pie_crust_from_mixing
+com.google.gson.JsonParseException: No key fluid in MapLike[{"type":"fluid_tag","amount":250,"fluid_tag":"c:milk"}]; No key fluidTag in MapLike[{"type":"fluid_tag","amount":250,"fluid_tag":"c:milk"}]; Failed to parse either. First: Input does not contain a key [fabric:type]: MapLike[{"type":"fluid_tag","amount":250,"fluid_tag":"c:milk"}]; Second: Failed to parse either. First: Not a json array: {"type":"fluid_tag","amount":250,"fluid_tag":"c:milk"}; Second: No key tag in MapLike[{"type":"fluid_tag","amount":250,"fluid_tag":"c:milk"}]; No key item in MapLike[{"type":"fluid_tag","amount":250,"fluid_tag":"c:milk"}]
+	at knot/com.mojang.serialization.DataResult$Error.mdd77c32$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:506) [fabric-loader-0.17.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) [fabric-loader-0.17.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.17.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.17.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.21-loader.0.17.3-launcher.1.1.0.jar:1.1.0]
+[15:15:40] [main/INFO]: Loaded 4293 recipes
+[15:15:40] [main/INFO]: Added 0 recipes in 4ms
+[15:15:41] [main/INFO]: Loaded 3760 advancements
+[15:15:41] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: thepa:tnt
+[15:16:00] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (1880c4d)
+[15:16:00] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[15:16:00] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[15:16:00] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2c5c591d)
+[15:16:00] [main/INFO]: Added 2 Biomes
+[15:16:00] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[15:16:00] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[15:16:00] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[15:16:00] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[15:16:00] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[15:16:00] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (1880c4d)
+[15:16:00] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (31d2ca6c)
+[15:16:00] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (31d2ca6c)
+[15:16:00] [main/INFO]: Added 4 biomes to wover:is_end/highland in 21.41 ms
+[15:16:00] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2c5c591d)
+[15:16:00] [main/INFO]: Added 2 Biomes
+[15:16:00] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[15:16:00] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[15:16:00] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[15:16:00] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (209751ac)
+[15:16:00] [main/INFO]: Added 2 Biomes
+[15:16:00] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[15:16:00] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[15:16:00] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[15:16:00] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (209751ac)
+[15:16:00] [main/INFO]: Added 2 Biomes
+[15:16:00] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[15:16:00] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[15:16:00] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[15:16:01] [main/INFO]: Applied 0 biome modifications and added 0 tags to 0 of 137 biomes in 2.810 ms
+[15:16:02] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[15:16:02] [main/INFO]: Applied 1089 biome modifications to 137 of 137 new biomes in 429.8 ms
+[15:16:02] [Server thread/INFO]: Starting minecraft server version 1.21
+[15:16:02] [Server thread/INFO]: Loading properties
+[15:16:02] [Server thread/INFO]: Default game type: SURVIVAL
+[15:16:02] [Server thread/INFO]: Generating keypair
+[15:16:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:16:02] [Server thread/INFO]: Using epoll channel type
+[15:16:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:16:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:16:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:16:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:16:03] [Server thread/INFO]: Preparing level "new"
+[15:16:03] [Server thread/INFO]: World Dimensions: 
+ - minecraft:the_nether: 
+     WoVer - Chunk Generator (4a1d7c0d)
+         preset     = wover:normal
+         noise      = minecraft:nether
+         features   = minecraft(37), farmersdelight(1), regions_unexplored(31), create(1), waystones(1), etherology(2)
+     WoVer - Nether BiomeSource (31d2ca6c)
+         biomes     = 10
+         namespaces = regions_unexplored(5), minecraft(5)
+         seed       = -5987094115685410867
+         height     = 128
+         config     = NetherConfig{mapVersion=hex, useVerticalBiomes=true, biomeSize=16, biomeSizeVertical=5}
+ - minecraft:the_end: 
+     WoVer - Chunk Generator (3fb82c76)
+         preset     = wover:normal
+         noise      = minecraft:end
+         features   = minecraft(5), corndelight(1), waystones(1), etherology(2)
+     WoVer - The End  BiomeSource (209751ac)
+         biomes     = 5
+         namespaces = minecraft(5)
+         seed       = -5987094115685410867
+         height     = 128
+         deciders   = 0
+         config     = EndConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadius=1024, voidBiomesSize=16, centerBiomesSize=16, landBiomesSize=16, barrensBiomesSize=16}
+ - minecraft:overworld: 
+     class_3754 (543234d6)
+         preset     = wover:normal
+         noise      = minecraft:overworld
+         features   = minecraft(151), farmersdelight(9), corndelight(1), regions_unexplored(275), create(2), rusticdelight(3), waystones(3), etherology(17)
+     class_4766 (6cc9070b)
+         biomes     = 120
+         namespaces = minecraft(53), etherology(1), regions_unexplored(66)
+[15:16:11] [Server thread/INFO]: Loading dimension "minecraft:the_nether" with biome source: "wover:nether_biome_source".
+[15:16:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:16:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:16:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:16:12] [Server thread/INFO]: Time elapsed: 921 ms
+[15:16:12] [Server thread/INFO]: Done (9.229s)! For help, type "help"
+[15:16:23] [Server thread/INFO]: com.mojang.authlib.GameProfile@5872b715[id=25f392bb-b046-3bf4-a471-e66056c41f03,name=Gan,properties={}] lost connection: Disconnected
+[15:18:46] [Server thread/INFO]: Gan[/192.168.31.1:49935] logged in with entity id 17 at (-518.5768011910984, -16.0, 3060.3386293532694)
+[15:18:46] [Server thread/INFO]: Gan joined the game
+[15:18:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[15:18:52] [Server thread/INFO]: Gan lost connection: Disconnected
+[15:18:52] [Server thread/INFO]: Gan left the game
