@@ -1,10 +1,11 @@
-[00:36:02] [Netty Epoll Server IO #5/ERROR]: Exception occurred in netty pipeline
+[01:21:57] [Server thread/INFO]: ServerOverflow1 (/176.65.148.49:33842) lost connection: Disconnected
+[01:22:58] [Netty Epoll Server IO #4/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[00:44:01] [Netty Epoll Server IO #6/ERROR]: Exception occurred in netty pipeline
+[01:33:52] [Netty Epoll Server IO #6/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[00:53:09] [Netty Epoll Server IO #7/ERROR]: Exception occurred in netty pipeline
+[01:45:58] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
 io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
-[00:53:09] [Netty Epoll Server IO #7/ERROR]: Error sending packet clientbound/minecraft:disconnect
+[01:45:58] [Netty Epoll Server IO #1/ERROR]: Error sending packet clientbound/minecraft:disconnect
 io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
 	at knot/net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
 	at knot/net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
@@ -43,115 +44,487 @@ io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/min
 	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
 	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:54:50] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
+[02:14:47] [Netty Epoll Server IO #6/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[01:02:30] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
+[02:26:13] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[01:06:20] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
+[02:36:28] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[01:18:13] [Netty Epoll Server IO #6/ERROR]: Exception occurred in netty pipeline
+[02:41:00] [Netty Epoll Server IO #4/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[01:21:02] [Server thread/INFO]: ServerOverflow1 (/176.65.148.49:51442) lost connection: Disconnected
-[02:02:25] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
+[02:50:23] [Netty Epoll Server IO #5/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[02:24:32] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
+[03:00:20] [Netty Epoll Server IO #6/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[03:33:53] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
+[03:06:16] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[03:41:08] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
+[03:11:08] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[04:12:17] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
+[03:26:08] [Netty Epoll Server IO #5/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[04:22:14] [Netty Epoll Server IO #4/ERROR]: Exception occurred in netty pipeline
+[04:42:53] [Netty Epoll Server IO #5/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[04:34:46] [Netty Epoll Server IO #6/ERROR]: Exception occurred in netty pipeline
+[06:11:03] [Netty Epoll Server IO #5/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[04:42:48] [Netty Epoll Server IO #7/ERROR]: Exception occurred in netty pipeline
+[07:15:25] [Netty Epoll Server IO #4/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[05:38:38] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
+[07:19:59] [Netty Epoll Server IO #6/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[05:45:26] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
+[07:22:22] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[06:02:19] [Netty Epoll Server IO #4/ERROR]: Exception occurred in netty pipeline
+[07:27:06] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[06:08:54] [Netty Epoll Server IO #5/ERROR]: Exception occurred in netty pipeline
+[07:34:40] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[06:09:41] [Netty Epoll Server IO #6/ERROR]: Exception occurred in netty pipeline
+[07:39:30] [Netty Epoll Server IO #4/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[06:16:33] [Netty Epoll Server IO #7/ERROR]: Exception occurred in netty pipeline
+[07:44:28] [Netty Epoll Server IO #5/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[06:39:01] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
+[07:48:39] [Netty Epoll Server IO #6/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[07:06:46] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.DecoderException: Received unknown packet id 3
-	at knot/net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
-	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[07:12:50] [Netty Epoll Server IO #7/ERROR]: Exception occurred in netty pipeline
+[08:07:07] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[07:48:23] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
+[08:26:12] [Netty Epoll Server IO #5/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[08:13:08] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
+[08:51:08] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[08:24:06] [Netty Epoll Server IO #5/ERROR]: Exception occurred in netty pipeline
+[08:55:55] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[08:38:08] [Netty Epoll Server IO #6/ERROR]: Exception occurred in netty pipeline
+[09:10:07] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[08:53:25] [Netty Epoll Server IO #7/ERROR]: Exception occurred in netty pipeline
+[09:21:40] [Netty Epoll Server IO #6/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[09:00:32] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
+[09:46:07] [Server thread/INFO]: Rostik_r1[/176.15.249.192:53179] logged in with entity id 50455 at (3036.699999988079, 98.0, 972.6581817480051)
+[09:46:07] [Server thread/INFO]: Rostik_r1 joined the game
+[09:46:38] [Netty Epoll Server IO #4/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[09:08:05] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
+[09:50:48] [Server thread/INFO]: majestro[/88.147.174.69:2335] logged in with entity id 51362 at (-402.156631491318, 99.0, -608.9837007838377)
+[09:50:48] [Server thread/INFO]: majestro joined the game
+[09:50:55] [Server thread/INFO]: [Not Secure] <Rostik_r1> ку
+[09:51:00] [Server thread/INFO]: [Not Secure] <majestro> qq
+[09:51:04] [Server thread/INFO]: [Not Secure] <Rostik_r1> я в дискорде
+[09:51:07] [Server thread/INFO]: [Not Secure] <Rostik_r1> если что
+[09:51:36] [Server thread/INFO]: [Not Secure] <majestro> Я пока так посижу. Сейчас к тебе на поезде приеду)
+[09:51:39] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[10:28:49] [Netty Epoll Server IO #5/ERROR]: Exception occurred in netty pipeline
+[09:51:46] [Server thread/INFO]: [Not Secure] <Rostik_r1> Ого
+[09:52:21] [Server thread/INFO]: [Not Secure] <majestro> Ты заметил железную дорогу?
+[09:52:29] [Server thread/INFO]: [Not Secure] <Rostik_r1> я ещё не выходил к деревне
+[09:56:05] [Server thread/INFO]: [Not Secure] <Rostik_r1> ох, етить...
+[09:56:10] [Server thread/INFO]: [Not Secure] <Rostik_r1> я её увидел
+[09:56:25] [Server thread/INFO]: [Not Secure] <Rostik_r1> я почему-то думал ,что это будет тупо вагонетка на рельсах...
+[09:56:43] [Server thread/INFO]: [Not Secure] <majestro> Не, это полноценная креэйтовская дорога)))
+[09:57:02] [Server thread/INFO]: [Not Secure] <Rostik_r1> круто, что я могу сказать
+[09:57:19] [Server thread/INFO]: [Not Secure] <Rostik_r1> буду знчит строить позже депо)
+[09:57:41] [Server thread/INFO]: [Not Secure] <Rostik_r1> в гору не едет?
+[09:58:00] [Server thread/INFO]: [Not Secure] <majestro> Едет. Я просто хочу пересобрать, чтобы было больше сидений
+[09:58:28] [Server thread/INFO]: majestro has made the advancement [A Throwaway Joke]
+[09:58:57] [Server thread/INFO]: [Not Secure] <Rostik_r1> ты как?....
+[09:59:01] [Server thread/INFO]: [Not Secure] <Rostik_r1> ааааааааааа
+[09:59:13] [Server thread/INFO]: [Not Secure] <Rostik_r1> магомед... ну лады
+[09:59:30] [Server thread/INFO]: [Not Secure] <majestro> Мне так интереснее)
+[09:59:44] [Server thread/INFO]: [Not Secure] <majestro> Ля го спасть
+[10:00:05] [Server thread/INFO]: [Not Secure] <Rostik_r1> ща
+[10:00:40] [Server thread/INFO]: [Not Secure] <Rostik_r1> грёбанные сонстры
+[10:02:35] [Server thread/INFO]: [Not Secure] <Rostik_r1> так, ты что-то про сундук в прошлый раз говрил
+[10:02:46] [Server thread/INFO]: [Not Secure] <majestro> Да, он на другом краю деревни
+[10:02:59] [Server thread/INFO]: [Not Secure] <Rostik_r1> оно?
+[10:03:06] [Server thread/INFO]: [Not Secure] <majestro> Да
+[10:03:19] [Server thread/INFO]: [Not Secure] <Rostik_r1> Ой, многоввато еды-то...
+[10:03:22] [Server thread/INFO]: [Not Secure] <majestro> Броню не бери, она читерная
+[10:03:32] [Server thread/INFO]: [Not Secure] <Rostik_r1> я предпологал
+[10:03:40] [Server thread/INFO]: [Not Secure] <majestro> Пусть будет украшение
+[10:03:48] [Server thread/INFO]: [Not Secure] <majestro> Её пока создатель мода не добавил
+[10:04:04] [Server thread/INFO]: [Not Secure] <Rostik_r1> я крч тк пока-что возьмук
+[10:04:20] [Server thread/INFO]: [Not Secure] <Rostik_r1> и пойду нверно в шахту
+[10:04:30] [Server thread/INFO]: [Not Secure] <majestro> Давай сначала прокатимся
+[10:04:38] [Server thread/INFO]: [Not Secure] <Rostik_r1> кста, keepinventory включен
+[10:04:41] [Server thread/INFO]: [Not Secure] <Rostik_r1> окай
+[10:05:13] [Server thread/INFO]: [Not Secure] <Rostik_r1> а де?
+[10:05:25] [Server thread/INFO]: [Not Secure] <Rostik_r1> fuf//
+[10:05:32] [Server thread/INFO]: [Not Secure] <Rostik_r1> ага...
+[10:06:15] [Server thread/INFO]: [Not Secure] <majestro> Стоп
+[10:06:21] [Server thread/INFO]: [Not Secure] <majestro> Развернуть надо
+[10:06:31] [Server thread/INFO]: [Not Secure] <majestro> Встань
+[10:06:32] [Server thread/INFO]: [Not Secure] <Rostik_r1> хех, тут скорость скорость курсора режеться
+[10:06:43] [Server thread/INFO]: [Not Secure] <Rostik_r1> когда сидишь
+[10:07:19] [Server thread/INFO]: [Not Secure] <Rostik_r1> ура, прогружаю новые чанки!
+[10:07:47] [Server thread/INFO]: [Not Secure] <Rostik_r1> собаку задвили :(
+[10:07:53] [Server thread/INFO]: [Not Secure] <majestro> Ага(
+[10:09:02] [Server thread/INFO]: [Not Secure] <Rostik_r1> 30 FPS XD
+[10:09:11] [Server thread/INFO]: [Not Secure] <majestro> Пх)))
+[10:09:22] [Server thread/INFO]: [Not Secure] <majestro> Зато красота вокруг)
+[10:09:47] [Server thread/INFO]: [Not Secure] <Rostik_r1> у меня тут половина поляны не прогружена...
+[10:10:30] [Server thread/INFO]: [Not Secure] <Rostik_r1> етить...
+[10:10:44] [Server thread/INFO]: [Not Secure] <Rostik_r1> дея?
+[10:10:53] [Server thread/INFO]: [Not Secure] <majestro> Хих)
+[10:11:55] [Server thread/INFO]: [Not Secure] <Rostik_r1> страшная пезда но интересня
+[10:12:01] [Server thread/INFO]: [Not Secure] <Rostik_r1> поездка*
+[10:12:04] [Server thread/INFO]: [Not Secure] <majestro> Хе-хе)
+[10:12:20] [Server thread/INFO]: [Not Secure] <majestro> Я спавн оформил
+[10:12:27] [Server thread/INFO]: [Not Secure] <Rostik_r1> ворлд едит?
+[10:12:31] [Server thread/INFO]: [Not Secure] <majestro> не
+[10:12:34] [Server thread/INFO]: [Not Secure] <majestro> Ручками
+[10:12:36] [Server thread/INFO]: [Not Secure] <Rostik_r1> f? njulf yjhvfkmyj
+[10:12:49] [Server thread/INFO]: [Not Secure] <Rostik_r1> о, тогданормально
+[10:13:39] [Server thread/INFO]: [Not Secure] <majestro> Го по дороге
+[10:14:57] [Server thread/INFO]: [Not Secure] <Rostik_r1> страшно...
+[10:15:02] [Server thread/INFO]: [Not Secure] <majestro> Почему?
+[10:15:07] [Server thread/INFO]: [Not Secure] <Rostik_r1> vfujvtl///
+[10:15:10] [Server thread/INFO]: [Not Secure] <Rostik_r1> магомед
+[10:15:14] [Server thread/INFO]: [Not Secure] <Rostik_r1> Ж)
+[10:15:15] [Server thread/INFO]: [Not Secure] <majestro> Хах)))
+[10:15:26] [Server thread/INFO]: [Not Secure] <Rostik_r1> relf bl`v
+[10:15:31] [Server thread/INFO]: [Not Secure] <Rostik_r1> куда идём?
+[10:15:40] [Server thread/INFO]: [Not Secure] <Rostik_r1> это ещё что
+[10:15:50] [Server thread/INFO]: [Not Secure] <majestro> Это в моде генерируются штуки
+[10:15:53] [Server thread/INFO]: [Not Secure] <Rostik_r1> плазменный дилдак?
+[10:16:02] [Server thread/INFO]: [Not Secure] <majestro> Одень очки
+[10:16:17] [Server thread/INFO]: [Not Secure] <Rostik_r1> тааакъ
+[10:16:54] [Server thread/INFO]: [Not Secure] <Rostik_r1> и что нажиматьь
+[10:16:55] [Server thread/INFO]: [Not Secure] <Rostik_r1> и что нажимать?
+[10:17:01] [Server thread/INFO]: [Not Secure] <majestro> Да ничего
+[10:17:08] [Server thread/INFO]: [Not Secure] <majestro> С неё можно ресы качать
+[10:17:17] [Server thread/INFO]: [Not Secure] <Rostik_r1> с маски?
+[10:17:23] [Server thread/INFO]: [Not Secure] <majestro> С печати
+[10:17:34] [Server thread/INFO]: [Not Secure] <majestro> А очки позволяют видеть эти штуки
+[10:17:46] [Server thread/INFO]: [Not Secure] <majestro> Они сами спавнятся
+[10:17:50] [Server thread/INFO]: [Not Secure] <Rostik_r1> аааа, понятно
+[10:17:58] [Server thread/INFO]: [Not Secure] <Rostik_r1> буду знать
+[10:18:08] [Server thread/INFO]: [Not Secure] <Rostik_r1> мне ещё предстоит с криейтом разобраться
+[10:18:15] [Server thread/INFO]: [Not Secure] <majestro> Ага
+[10:18:25] [Server thread/INFO]: [Not Secure] <Rostik_r1> ага...
+[10:18:29] [Server thread/INFO]: [Not Secure] <Rostik_r1> понятно
+[10:19:06] [Server thread/INFO]: [Not Secure] <majestro> Там нет ничего
+[10:19:19] [Server thread/INFO]: [Not Secure] <majestro> Просто мы там появились в мире
+[10:19:22] [Server thread/INFO]: [Not Secure] <Rostik_r1> хм, а где твоя база?
+[10:21:33] [Server thread/INFO]: [Not Secure] <Rostik_r1> gjyznyj
+[10:21:39] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[11:00:58] [Netty Epoll Server IO #6/ERROR]: Exception occurred in netty pipeline
+[10:21:43] [Server thread/INFO]: [Not Secure] <Rostik_r1> нормально
+[10:21:51] [Server thread/INFO]: [Not Secure] <majestro> Да, пока тут канткюсь
+[10:22:02] [Server thread/INFO]: [Not Secure] <Rostik_r1> у магомеда есть что-ниюудь?
+[10:22:10] [Server thread/INFO]: [Not Secure] <majestro> Есть пещера
+[10:22:20] [Server thread/INFO]: [Not Secure] <Rostik_r1> Ххахахаха
+[10:22:23] [Server thread/INFO]: [Not Secure] <Rostik_r1> пошли глянем
+[10:22:43] [Server thread/INFO]: [Not Secure] <Rostik_r1> я так понимаю она был в той стороне
+[10:23:00] [Server thread/INFO]: [Not Secure] <majestro> Я у него спросил где она
+[10:23:06] [Server thread/INFO]: [Not Secure] <majestro> Может ответит
+[10:23:10] [Server thread/INFO]: [Not Secure] <Rostik_r1> понял
+[10:23:36] [Server thread/INFO]: [Not Secure] <majestro> У меня тут 4 улья заспавнилось!
+[10:23:44] [Server thread/INFO]: [Not Secure] <majestro> Буду делать блины с мёдом)
+[10:23:49] [Server thread/INFO]: [Not Secure] <Rostik_r1> хех
+[10:24:11] [Server thread/INFO]: [Not Secure] <Rostik_r1> королевские собаки
+[10:24:14] [Server thread/INFO]: [Not Secure] <majestro> Да
+[10:24:29] [Server thread/INFO]: [Not Secure] <Rostik_r1> я пойду тогда наверно возвращаться
+[10:24:37] [Server thread/INFO]: [Not Secure] <Rostik_r1> надо УГОЛЬ ДОБЫВАТЬ
+[10:24:40] [Server thread/INFO]: [Not Secure] <majestro> Ага
+[10:24:45] [Server thread/INFO]: [Not Secure] <Rostik_r1> А ТО ПЛАВИТЬ НЕЧЕГО
+[10:25:19] [Server thread/INFO]: [Not Secure] <Rostik_r1> о, оно едет
+[10:25:21] [Server thread/INFO]: [Not Secure] <majestro> w
+[10:25:32] [Server thread/INFO]: [Not Secure] <majestro> Пока!
+[10:25:37] [Server thread/INFO]: [Not Secure] <Rostik_r1> удачи, маэстро!
+[10:26:30] [Server thread/INFO]: [Not Secure] <Rostik_r1> блин, ту был особняк
+[10:26:34] [Server thread/INFO]: [Not Secure] <majestro> Ага
+[10:26:34] [Server thread/INFO]: [Not Secure] <Rostik_r1> мощно
+[10:26:42] [Server thread/INFO]: [Not Secure] <majestro> Я пока не заходил туда
+[10:27:07] [Server thread/INFO]: Rostik_r1 has reached the goal [Road Kill]
+[10:27:10] [Server thread/WARN]: Rostik_r1 moved wrongly!
+[10:27:11] [Server thread/WARN]: Rostik_r1 moved wrongly!
+[10:27:11] [Server thread/WARN]: Rostik_r1 moved wrongly!
+[10:27:21] [Server thread/INFO]: [Not Secure] <Rostik_r1> тк и помереть можно...
+[10:27:27] [Server thread/INFO]: [Not Secure] <majestro> Конечно
+[10:27:38] [Server thread/INFO]: [Not Secure] <majestro> Правила безопасности надо соблюдать!
+[10:27:56] [Server thread/INFO]: [Not Secure] <Rostik_r1> тут дорога не соответсвует стандартам безопасности
+[10:28:18] [Server thread/INFO]: [Not Secure] <majestro> Ну ты же не слетаешь с рельс)))
+[10:28:46] [Server thread/INFO]: [Not Secure] <Rostik_r1> покеа что да, но лицом в горе ездить тоже так себе
+[10:29:08] [Server thread/INFO]: [Not Secure] <majestro> Я каждый раз, когда проезжаю, ломаю блоки
+[10:29:19] [Server thread/INFO]: [Not Secure] <majestro> Займусь потом полноценным тунелем
+[10:29:29] [Server thread/INFO]: [Not Secure] <Rostik_r1> буд благодарен
+[10:29:38] [Netty Epoll Server IO #4/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[11:27:35] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
+[10:31:28] [Server thread/INFO]: [Not Secure] <Rostik_r1> путь завершён
+[10:31:42] [Server thread/INFO]: [Not Secure] <majestro> Весьма быстро
+[10:31:50] [Server thread/INFO]: [Not Secure] <Rostik_r1> ну да,
+[10:32:04] [Server thread/INFO]: [Not Secure] <Rostik_r1> н то это и поезд
+[10:33:08] [Server thread/INFO]: [Not Secure] <Rostik_r1> самое время добывать ресурсы
+[10:33:13] [Server thread/INFO]: [Not Secure] <majestro> Вперёд!
+[10:33:57] [Server thread/INFO]: [Not Secure] <Rostik_r1> так, что в данной версии мода ceate можно делать?
+[10:34:04] [Server thread/INFO]: [Not Secure] <Rostik_r1> gjntywbfkmyj
+[10:34:08] [Server thread/INFO]: [Not Secure] <Rostik_r1> потенциально
+[10:34:09] [Server thread/INFO]: [Not Secure] <majestro> Да всё, что и в обычной
+[10:34:27] [Server thread/INFO]: [Not Secure] <majestro> Завод по производству железа, золота, угля
+[10:34:33] [Server thread/INFO]: [Not Secure] <majestro> Бур можно сделать
+[10:34:40] [Server thread/INFO]: [Not Secure] <majestro> Мега двери механические
+[10:34:51] [Server thread/INFO]: [Not Secure] <Rostik_r1> О, это уже интереснее
+[10:35:08] [Server thread/INFO]: [Not Secure] <Rostik_r1> мне нужжно что-то в стиле комфорта или удобсвто
+[10:35:19] [Server thread/INFO]: [Not Secure] <Rostik_r1> производство меня интересует, но пока не настролько сильно
+[10:35:33] [Server thread/INFO]: [Not Secure] <Rostik_r1> насколько всякие мехапнизмы
+[10:35:41] [Server thread/INFO]: [Not Secure] <majestro> Хм... Ну, можно сортировку сделать
+[10:35:55] [Server thread/INFO]: [Not Secure] <Rostik_r1> по сундукам имеешь в виду?
+[10:36:01] [Server thread/INFO]: [Not Secure] <majestro> Да
+[10:36:13] [Server thread/INFO]: [Not Secure] <Rostik_r1> хм, хорошо..
+[10:36:19] [Server thread/INFO]: [Not Secure] <Rostik_r1> го поспим
+[10:36:34] [Server thread/INFO]: [Not Secure] <Rostik_r1> меня тут скелеты кошмарят
+[10:38:17] [Server thread/INFO]: [Not Secure] <Rostik_r1> 4как меня бесят эти криперы...
+[10:38:37] [Server thread/INFO]: [Not Secure] <majestro> Может сложность уменьшить?
+[10:39:00] [Server thread/INFO]: [Not Secure] <Rostik_r1> да не, ту дело в том, что они мне эстетику черти ломают
+[10:39:08] [Server thread/INFO]: [Not Secure] <Rostik_r1> у меня тут теперь кратер перед пещерой
+[10:39:25] [Server thread/INFO]: [Not Secure] <majestro> Можно сделать так, чтобы они блоки не ломали
+[10:39:43] [Server thread/INFO]: [Not Secure] <Rostik_r1> да не ладно. пока норм
+[10:39:58] [Server thread/INFO]: [Not Secure] <Rostik_r1> я просто оотгорожу как-то вход в пещеру, дабы они сюда не тащились
+[10:41:01] [Server thread/INFO]: [Not Secure] <Rostik_r1> мне нужен снег
+[10:41:04] [Server thread/INFO]: [Not Secure] <Rostik_r1> нормально так снега
+[10:41:17] [Server thread/INFO]: [Not Secure] <Rostik_r1> чем больше, тем лучше
+[10:41:21] [Server thread/INFO]: [Not Secure] <majestro> Ты живёшь в зиме)
+[10:41:39] [Netty Epoll Server IO #7/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[11:36:22] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
+[10:41:43] [Server thread/INFO]: [Not Secure] <Rostik_r1> знаю, но выкапывать ВЕСЬ СНЕГ В ЛЕСУ под чистую я не имею желание
+[10:41:58] [Server thread/INFO]: [Not Secure] <Rostik_r1> остаёться "корочку" cj,bhfnm
+[10:42:04] [Server thread/INFO]: [Not Secure] <Rostik_r1> остаёться "корочку" собирть
+[10:42:11] [Server thread/INFO]: [Not Secure] <majestro> Его к сожалению нельзя производить креэйтом(
+[10:42:14] [Server thread/INFO]: [Not Secure] <majestro> Стоп
+[10:42:19] [Server thread/INFO]: [Not Secure] <majestro> Я знаю!
+[10:42:37] [Server thread/INFO]: [Not Secure] <majestro> Сделай ферму на снежном големе!
+[10:42:48] [Server thread/INFO]: [Not Secure] <Rostik_r1> звучит интересно
+[10:43:14] [Server thread/INFO]: [Not Secure] <majestro> Просто создай снеговика и запри его так, чтобы можно было лопатой из-под него снег копать
+[10:43:21] [Server thread/INFO]: [Not Secure] <majestro> Это ванильная штука
+[10:43:31] [Server thread/INFO]: [Not Secure] <Rostik_r1> окай
+[10:43:39] [Server thread/INFO]: [Not Secure] <Rostik_r1> тогшда пойду искать тыквы
+[10:43:47] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[11:36:55] [Netty Epoll Server IO #4/ERROR]: Exception occurred in netty pipeline
+[10:44:31] [Server thread/INFO]: [Not Secure] <majestro> О, я сделал разворачивалку для поезда!
+[10:44:40] [Server thread/INFO]: [Not Secure] <Rostik_r1> курто
+[10:44:42] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[11:46:44] [Netty Epoll Server IO #5/ERROR]: Exception occurred in netty pipeline
+[10:46:08] [Server thread/INFO]: [Not Secure] <majestro> Я могу по сути сделать так, чтобы поезда сами шли между нашими станциями время от времени
+[10:46:25] [Server thread/INFO]: [Not Secure] <majestro> Только надо, чтобы чанки были загружены
+[10:46:39] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[11:51:33] [Netty Epoll Server IO #6/ERROR]: Exception occurred in netty pipeline
+[10:46:48] [Server thread/INFO]: [Not Secure] <Rostik_r1> это обязательное условие?
+[10:46:51] [Server thread/INFO]: [Not Secure] <majestro> Да
+[10:47:01] [Server thread/INFO]: [Not Secure] <majestro> Ну хотя...
+[10:47:11] [Server thread/INFO]: [Not Secure] <majestro> Ты далеко от дома?
+[10:47:17] [Server thread/INFO]: [Not Secure] <Rostik_r1> лучше чначала протестить
+[10:47:20] [Server thread/INFO]: [Not Secure] <Rostik_r1> не слишком
+[10:47:34] [Server thread/INFO]: [Not Secure] <Rostik_r1> возьми мне тыкву тогад
+[10:47:42] [Server thread/INFO]: [Not Secure] <Rostik_r1> я приелу
+[10:47:45] [Server thread/INFO]: [Not Secure] <majestro> Я вот и хочу протестить. Отойди подальше, а я пущу поезд
+[10:47:50] [Server thread/INFO]: [Not Secure] <Rostik_r1> а
+[10:47:55] [Server thread/INFO]: [Not Secure] <Rostik_r1> окай
+[10:48:10] [Server thread/INFO]: [Not Secure] <Rostik_r1> 3604.66 71.00 480.98 252.18 20.60
+[10:48:16] [Server thread/INFO]: [Not Secure] <Rostik_r1> текущие кооринаты
+[10:51:04] [Server thread/INFO]: [Not Secure] <Rostik_r1> ладно, я вижу только одни ьыквенные поля
+[10:51:13] [Server thread/INFO]: [Not Secure] <majestro> Крутяк)))
+[10:51:24] [Server thread/INFO]: [Not Secure] <Rostik_r1> придёться возавращаться
+[10:51:39] [Netty Epoll Server IO #4/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[13:55:38] [Netty Epoll Server IO #6/ERROR]: Exception occurred in netty pipeline
+[10:51:54] [Server thread/INFO]: [Not Secure] <majestro> Ну, наверное поезд уже должен был приехать. Посмотри, проверь
+[10:52:02] [Server thread/INFO]: [Not Secure] <Rostik_r1> щас чекну
+[10:52:14] [Server thread/INFO]: [Not Secure] <Rostik_r1> мне прилично идти надо
+[10:52:27] [Server thread/INFO]: [Not Secure] <majestro> Это хорошо
+[10:53:32] [Netty Epoll Server IO #5/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[10:53:54] [Server thread/INFO]: [Not Secure] <Rostik_r1> уже близкоц
+[10:54:39] [Server thread/INFO]: [Not Secure] <Rostik_r1> пнриехал
+[10:54:46] [Server thread/INFO]: [Not Secure] <majestro> О, крутяк!
+[10:55:33] [Server thread/INFO]: [Not Secure] <Rostik_r1> я не могу его здесь развернуть
+[10:55:47] [Server thread/INFO]: [Not Secure] <Rostik_r1> потому пойду к спавну (примерно) пешком
+[10:55:51] [Server thread/INFO]: [Not Secure] <majestro> Его надо гаечным ключом
+[10:56:01] [Server thread/INFO]: [Not Secure] <Rostik_r1> ткого у меня нет...
+[10:56:10] [Server thread/INFO]: [Not Secure] <majestro> Стой. Обелиск же есть
+[10:56:19] [Server thread/INFO]: [Not Secure] <majestro> Но тебе не надо идти, я сам
+[10:56:31] [Server thread/INFO]: [Not Secure] <Rostik_r1> а, ну окай
+[10:56:41] [Server thread/INFO]: [Not Secure] <Rostik_r1> нарви мне пару тыкв с тыквенных поле
+[10:56:52] [Server thread/WARN]: Rostik_r1 moved too quickly! 9.609727091356945,-0.7508129212553172,3.236200184405334
+[10:57:41] [Server thread/INFO]: [Not Secure] <Rostik_r1> в таком случае я пока пойду в пещеру
+[10:57:47] [Server thread/INFO]: [Not Secure] <majestro> Оки
+[10:58:09] [Server thread/INFO]: [Not Secure] <Rostik_r1> если будешь в деревне, скинь в сундук куда-нибудь на базе моей
+[10:58:12] [Server thread/INFO]: [Not Secure] <Rostik_r1> я корды скину
+[10:58:19] [Server thread/INFO]: [Not Secure] <majestro> Я уже в деревне
+[10:58:26] [Server thread/INFO]: [Not Secure] <Rostik_r1> а, окай\
+[10:59:20] [Server thread/INFO]: [Not Secure] <majestro> А что тебе надо?
+[10:59:23] [Server thread/INFO]: [Not Secure] <Rostik_r1> тыквый
+[10:59:28] [Server thread/INFO]: [Not Secure] <Rostik_r1> тыквы
+[10:59:37] [Server thread/INFO]: [Not Secure] <Rostik_r1> много нет надо
+[11:00:02] [Server thread/INFO]: [Not Secure] <Rostik_r1> пасиба
+[11:00:47] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[11:03:25] [Server thread/INFO]: [Not Secure] <Rostik_r1> кстати, а как делаеться вырезанная тыква?
+[11:04:00] [Server thread/INFO]: [Not Secure] <majestro> Ножницами её
+[11:04:11] [Server thread/INFO]: [Not Secure] <Rostik_r1> в инвентаре?
+[11:04:16] [Server thread/INFO]: [Not Secure] <majestro> Не
+[11:04:24] [Server thread/INFO]: [Not Secure] <Rostik_r1> ага...
+[11:04:36] [Server thread/INFO]: [Not Secure] <majestro> Ты сначала поставь тыкву на два снего, а потом вырежи
+[11:05:24] [Server thread/INFO]: [Not Secure] <majestro> Короче, я отправил поезд по кольцевому маршруту
+[11:05:34] [Server thread/INFO]: [Not Secure] <Rostik_r1> понял
+[11:05:39] [Server thread/INFO]: [Not Secure] <majestro> Теперь буду тут ждать его, когда вернётся
+[11:05:40] [Server thread/INFO]: [Not Secure] <Rostik_r1> ферма снега кста работает
+[11:05:45] [Server thread/INFO]: [Not Secure] <majestro> О, сас
+[11:06:04] [Server thread/INFO]: [Not Secure] <Rostik_r1> ток лопата быстро умирает...
+[11:06:15] [Server thread/INFO]: [Not Secure] <majestro> Логично
+[11:07:28] [Server thread/INFO]: [Not Secure] <Rostik_r1> уже почти стак блоков :)
+[11:07:37] [Server thread/INFO]: [Not Secure] <majestro> ❤
+[11:09:32] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[11:11:12] [Server thread/INFO]: [Not Secure] <majestro> Что-то не возвращается поезд
+[11:11:25] [Server thread/INFO]: [Not Secure] <majestro> Пойду, проверю что там
+[11:11:35] [Server thread/INFO]: [Not Secure] <Rostik_r1> Ты гору фиксил?
+[11:11:38] [Netty Epoll Server IO #4/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[11:11:41] [Server thread/INFO]: [Not Secure] <Rostik_r1> пожет машинист помер?
+[11:11:49] [Server thread/INFO]: [Not Secure] <majestro> Не, машенист - пчела
+[11:11:55] [Server thread/INFO]: [Not Secure] <majestro> И гору я пофиксил
+[11:12:02] [Server thread/INFO]: [Not Secure] <majestro> Странно, и тут поезда нет
+[11:12:05] [Server thread/INFO]: [Not Secure] <Rostik_r1> хм... Странно
+[11:13:01] [Server thread/INFO]: [Not Secure] <majestro> Вот он
+[11:13:24] [Server thread/INFO]: [Not Secure] <Rostik_r1> де?
+[11:13:45] [Server thread/INFO]: [Not Secure] <majestro> Да не важно. Короче он едет, просто медленно
+[11:13:55] [Server thread/INFO]: [Not Secure] <Rostik_r1> gjyznyj
+[11:14:05] [Server thread/INFO]: [Not Secure] <Rostik_r1> он хотябы останавливаеться
+[11:14:08] [Server thread/INFO]: [Not Secure] <Rostik_r1> ?
+[11:14:14] [Server thread/INFO]: [Not Secure] <majestro> На две минуты стоянка
+[11:14:40] [Server thread/INFO]: [Not Secure] <Rostik_r1> нормально
+[11:14:46] [Server thread/INFO]: [Not Secure] <majestro> Могу изменить
+[11:14:55] [Server thread/INFO]: [Not Secure] <Rostik_r1> не, пойдёт
+[11:15:39] [Server thread/INFO]: [Not Secure] <Rostik_r1> так, я ткакими темпами алмазы не найду...
+[11:15:48] [Server thread/INFO]: [Not Secure] <Rostik_r1> теперь точно в шахту
+[11:15:56] [Server thread/INFO]: [Not Secure] <majestro> Вперёд!
+[11:16:06] [Server thread/INFO]: [Not Secure] <Rostik_r1> мошеь кинуть кожанные боктинки
+[11:16:12] [Server thread/INFO]: [Not Secure] <Rostik_r1> пока не уехал
+[11:16:34] [Server thread/INFO]: [Not Secure] <Rostik_r1> пасиба!
+[11:19:31] [Server thread/INFO]: Rostik_r1 has made the advancement [Suit Up]
+[11:19:35] [Server thread/INFO]: [Not Secure] <majestro> ОООО
+[11:19:55] [Server thread/INFO]: [Not Secure] <Rostik_r1> почти готов
+[11:20:07] [Server thread/INFO]: [Not Secure] <Rostik_r1> осталось дерева нкопать
+[11:20:42] [Server thread/INFO]: [Not Secure] <Rostik_r1> го поспим
+[11:20:56] [Netty Epoll Server IO #7/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[11:21:01] [Server thread/INFO]: Rostik_r1 lost connection: Timed out
+[11:21:01] [Server thread/INFO]: Rostik_r1 left the game
+[11:21:14] [Server thread/INFO]: Rostik_r1[/176.15.249.192:36277] logged in with entity id 105438 at (3042.5, 98.0, 975.5)
+[11:21:14] [Server thread/INFO]: Rostik_r1 joined the game
+[11:21:31] [Server thread/INFO]: [Not Secure] <Rostik_r1> видимо инет на микросекунду умер
+[11:21:36] [Server thread/INFO]: [Not Secure] <majestro> Ага
+[11:21:45] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[11:22:29] [Server thread/INFO]: [Not Secure] <Rostik_r1> надо с собой всегда такскать кожанные ботинки...
+[11:22:46] [Server thread/INFO]: [Not Secure] <Rostik_r1> я задолбался в рыхлый снег проваливаться
+[11:22:56] [Server thread/INFO]: [Not Secure] <majestro> Согласен, мега раздражает
+[11:23:11] [Server thread/INFO]: [Not Secure] <majestro> Хорошо хоть можданги не добавили зыбучий песок
+[11:23:26] [Server thread/INFO]: [Not Secure] <Rostik_r1> охохохоох... бэто было бы жёстко
+[11:25:09] [Server thread/INFO]: [Not Secure] <Rostik_r1> этого должно хватить...
+[11:25:37] [Server thread/INFO]: [Not Secure] <majestro> Ага. Короче примерно раз в 10 минут приезжает поезд
+[11:25:52] [Server thread/INFO]: [Not Secure] <Rostik_r1> отлично
+[11:26:04] [Netty Epoll Server IO #4/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[11:27:00] [Server thread/INFO]: [Not Secure] <Rostik_r1> всё, теперь точно иду искать приключения
+[11:27:18] [Server thread/INFO]: [Not Secure] <majestro> Хех) Теперь уж точно)
+[11:27:31] [Server thread/INFO]: [Not Secure] <majestro> А я буду делать дорогу более красивой
+[11:27:35] [Server thread/INFO]: [Not Secure] <Rostik_r1> мне нужна дырка в земле
+[11:27:36] [Server thread/INFO]: [Not Secure] <majestro> железную
+[11:27:40] [Server thread/INFO]: [Not Secure] <Rostik_r1> это хорошо
+[11:27:59] [Server thread/INFO]: [Not Secure] <Rostik_r1> я спелеолог
+[11:28:06] [Server thread/INFO]: [Not Secure] <majestro> Удачи!
+[11:28:42] [Server thread/INFO]: [Not Secure] <Rostik_r1> есть первая
+[11:36:22] [Netty Epoll Server IO #7/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[11:45:07] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[11:49:12] [Server thread/INFO]: [Not Secure] <Rostik_r1> слушай, можешь мне позже подоганть много дерева?
+[11:49:29] [Server thread/INFO]: [Not Secure] <majestro> Скока?
+[11:49:38] [Server thread/INFO]: [Not Secure] <Rostik_r1> много
+[11:49:46] [Server thread/INFO]: [Not Secure] <Rostik_r1> примерно 2 стака брёвен
+[11:49:48] [Server thread/INFO]: [Not Secure] <majestro> Какого вида дерева?
+[11:50:23] [Server thread/INFO]: [Not Secure] <Rostik_r1> чтоы были светлые доски и желательно всё одного вида
+[11:50:30] [Server thread/INFO]: [Not Secure] <Rostik_r1> на твой вкус
+[11:50:40] [Server thread/INFO]: [Not Secure] <Rostik_r1> щас
+[11:51:01] [Server thread/INFO]: Rostik_r1 lost connection: You logged in from another location
+[11:51:01] [Server thread/INFO]: Rostik_r1 left the game
+[11:51:10] [Server thread/INFO]: Rostik_r1[/176.15.249.192:53676] logged in with entity id 115908 at (3007.300000011921, 55.0, 610.862392594597)
+[11:51:10] [Server thread/INFO]: Rostik_r1 joined the game
+[11:51:19] [Server thread/INFO]: [Not Secure] <Rostik_r1> всё, я тут
+[11:52:11] [Server thread/INFO]: [Not Secure] <majestro> Где ты?
+[11:52:23] [Server thread/INFO]: [Not Secure] <Rostik_r1> далеко под землёй
+[11:52:31] [Server thread/INFO]: [Not Secure] <Rostik_r1> скни на базу куда-нибудь
+[11:52:41] [Server thread/INFO]: [Not Secure] <Rostik_r1> прямо сейчас они мне не особо нужны
+[11:52:46] [Server thread/INFO]: [Not Secure] <Rostik_r1> или скинь в деревню
+[11:56:14] [Server thread/INFO]: [Not Secure] <Rostik_r1> эм...
+[11:56:26] [Server thread/INFO]: [Not Secure] <Rostik_r1> тут в пещере частицы в виде золотых звёзд
+[11:56:30] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[11:56:35] [Server thread/INFO]: [Not Secure] <majestro> Бывает
+[11:57:10] [Server thread/INFO]: [Not Secure] <Rostik_r1> ща
+[11:57:13] [Server thread/INFO]: [Not Secure] <Rostik_r1> я перезайду
+[11:57:16] [Server thread/INFO]: Rostik_r1 lost connection: Disconnected
+[11:57:16] [Server thread/INFO]: Rostik_r1 left the game
+[11:59:20] [Server thread/INFO]: Rostik_r1[/176.15.249.192:36287] logged in with entity id 120010 at (2996.300000011921, 38.0, 619.2564816461271)
+[11:59:20] [Server thread/INFO]: Rostik_r1 joined the game
+[11:59:41] [Server thread/INFO]: [Not Secure] <majestro> Короче я положил дерево в сундук, где еда
+[11:59:50] [Server thread/INFO]: [Not Secure] <Rostik_r1> понял
+[12:17:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2149ms or 42 ticks behind
+[12:19:50] [Netty Epoll Server IO #5/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[12:24:16] [Server thread/INFO]: [Not Secure] <Rostik_r1> и снова ферма рыбы-клоуна...
+[12:24:25] [Server thread/INFO]: [Not Secure] <majestro> Пхххх)
+[12:24:39] [Server thread/INFO]: [Not Secure] <Rostik_r1> тут просто в пещереводопад есть небольшой
+[12:25:04] [Server thread/INFO]: [Not Secure] <Rostik_r1> рыба когда из него выпадает, она умимрает на земле. Учитывая ,что тм генериться рыа, то её тут очень даже много
+[12:25:15] [Server thread/INFO]: [Not Secure] <majestro> Реально ферма
+[12:29:50] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[12:34:12] [Server thread/INFO]: [Not Secure] <majestro> Всё, железная дорога улучшена
+[12:34:24] [Server thread/INFO]: [Not Secure] <majestro> Теперь меньше мотает вверх-вниз
+[12:34:24] [Server thread/WARN]: Player Rostik_r1 just tried to change non-editable sign
+[12:34:31] [Server thread/INFO]: [Not Secure] <Rostik_r1> Круто
+[12:42:34] [Netty Epoll Server IO #4/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[12:44:32] [Netty Epoll Server IO #5/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[12:59:47] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[13:07:37] [Server thread/INFO]: majestro has made the advancement [Hot Stuff]
+[13:07:44] [Server thread/INFO]: [Not Secure] <Rostik_r1> кого плавишь?
+[13:08:09] [Server thread/INFO]: [Not Secure] <majestro> Да так
+[13:13:31] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[13:23:42] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[13:26:39] [Server thread/WARN]: Rostik_r1 moved too quickly! 9.873357139049403,1.0,-2.092773543648036
+[13:29:20] [Server thread/INFO]: majestro has made the advancement [Blinded by the lights]
+[13:30:10] [Server thread/INFO]: majestro has made the advancement [Lit!]
+[13:35:24] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[13:35:45] [Server thread/WARN]: More than one Overworld dimension world created; cowardly ignoring 'minecraft:overworld' in favor of 'minecraft:overworld'
+[13:35:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[13:35:53] [Server thread/WARN]: More than one Overworld dimension world created; cowardly ignoring 'minecraft:overworld' in favor of 'minecraft:overworld'
+[13:36:02] [Server thread/WARN]: More than one Overworld dimension world created; cowardly ignoring 'minecraft:overworld' in favor of 'minecraft:overworld'
+[13:36:02] [Server thread/WARN]: Rostik_r1 moved too quickly! 8.819782127237431,4.0,2.5698993569577624
+[13:36:09] [Server thread/WARN]: More than one Overworld dimension world created; cowardly ignoring 'minecraft:overworld' in favor of 'minecraft:overworld'
+[13:36:17] [Server thread/WARN]: More than one Overworld dimension world created; cowardly ignoring 'minecraft:overworld' in favor of 'minecraft:overworld'
+[13:36:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19700ms or 394 ticks behind
+[13:36:25] [Server thread/WARN]: More than one Overworld dimension world created; cowardly ignoring 'minecraft:overworld' in favor of 'minecraft:overworld'
+[13:36:32] [Server thread/WARN]: More than one Overworld dimension world created; cowardly ignoring 'minecraft:overworld' in favor of 'minecraft:overworld'
+[13:36:40] [Server thread/WARN]: More than one Overworld dimension world created; cowardly ignoring 'minecraft:overworld' in favor of 'minecraft:overworld'
+[13:36:48] [Server thread/WARN]: More than one Overworld dimension world created; cowardly ignoring 'minecraft:overworld' in favor of 'minecraft:overworld'
+[13:36:55] [Server thread/WARN]: Rostik_r1 moved too quickly! 1.2188976396500948,-7.694561548248785,6.516400969240635
+[13:36:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19295ms or 385 ticks behind
+[13:38:45] [Netty Epoll Server IO #6/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[13:41:43] [Server thread/INFO]: [Not Secure] <majestro> Как там приключения?
+[13:41:57] [Server thread/INFO]: [Not Secure] <Rostik_r1> нормально
+[13:42:03] [Server thread/INFO]: [Not Secure] <Rostik_r1> пытаюсь все пещеры разметить
+[13:42:13] [Server thread/INFO]: [Not Secure] <majestro> Хех, понятно
+[13:42:18] [Server thread/INFO]: [Not Secure] <Rostik_r1> но пока они слишком ветвистые
+[13:42:21] [Server thread/INFO]: [Not Secure] <majestro> А я домик построил
+[13:42:26] [Server thread/INFO]: [Not Secure] <Rostik_r1> прикольно
+[13:42:37] [Server thread/INFO]: [Not Secure] <majestro> Ну как всегда пещеры как деревья с тремя папами
+[13:43:12] [Server thread/INFO]: [Not Secure] <Rostik_r1> Ага, у меня ту жёсткий перепад с 40-ой высоты скорее всего до -50-ой
+[13:43:20] [Server thread/INFO]: [Not Secure] <majestro> Жёстко
+[13:43:55] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[13:44:50] [Netty Epoll Server IO #5/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[13:49:50] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[13:51:48] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
