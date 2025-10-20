@@ -39,27 +39,28 @@
     "criteria": {
       "mountains": "2025-10-18 14:54:53 +0000",
       "silver_birch_forest": "2025-10-14 11:24:45 +0000",
+      "boreal_forest": "2025-10-14 11:18:29 +0000",
+      "pine_taiga": "2025-10-18 14:54:23 +0000",
+      "autumnal_maple_forest": "2025-10-14 08:38:16 +0000",
+      "muddy_river": "2025-10-14 11:11:39 +0000",
+      "ancient_delta": "2025-10-14 10:00:30 +0000",
       "temperate_grove": "2025-10-14 11:34:29 +0000",
       "frozen_tundra": "2025-10-18 14:57:46 +0000",
       "cold_river": "2025-10-14 10:54:51 +0000",
       "pine_slopes": "2025-10-18 14:54:54 +0000",
       "poppy_fields": "2025-10-14 10:53:36 +0000",
       "grassy_beach": "2025-10-14 10:47:38 +0000",
-      "boreal_forest": "2025-10-14 11:18:29 +0000",
+      "scorching_caves": "2025-10-19 16:21:10 +0000",
       "rocky_meadow": "2025-10-14 10:54:56 +0000",
       "blackwood_taiga": "2025-10-18 14:54:31 +0000",
-      "pine_taiga": "2025-10-18 14:54:23 +0000",
       "ochard": "2025-10-14 10:47:07 +0000",
       "flower_fields": "2025-10-14 10:47:06 +0000",
       "gravel_beach": "2025-10-14 10:49:01 +0000",
       "highland_fields": "2025-10-18 14:53:52 +0000",
       "maple_forest": "2025-10-14 08:34:44 +0000",
-      "autumnal_maple_forest": "2025-10-14 08:38:16 +0000",
-      "muddy_river": "2025-10-14 11:11:39 +0000",
       "icy_heights": "2025-10-18 14:57:13 +0000",
       "magnolia_highlands": "2025-10-14 11:01:45 +0000",
       "bioshroom_caves": "2025-10-18 14:54:50 +0000",
-      "ancient_delta": "2025-10-14 10:00:30 +0000",
       "lupine_plains": "2025-10-14 11:04:26 +0000"
     },
     "done": false
@@ -608,6 +609,7 @@
       "minecraft:snowy_taiga": "2025-10-18 14:56:43 +0000",
       "minecraft:deep_cold_ocean": "2025-10-14 11:27:41 +0000",
       "minecraft:frozen_river": "2025-10-18 14:57:45 +0000",
+      "minecraft:deep_dark": "2025-10-19 16:07:53 +0000",
       "minecraft:ocean": "2025-10-14 11:00:27 +0000",
       "minecraft:sunflower_plains": "2025-10-14 09:49:47 +0000",
       "minecraft:cherry_grove": "2025-10-14 11:39:37 +0000",
@@ -2929,6 +2931,7 @@
   },
   "regions_unexplored:spelunker": {
     "criteria": {
+      "scorching_caves": "2025-10-19 16:21:10 +0000",
       "bioshroom_caves": "2025-10-18 14:54:50 +0000",
       "ancient_delta": "2025-10-14 10:00:30 +0000"
     },
@@ -3764,9 +3767,13 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
+      "cabbage": "2025-10-19 16:47:02 +0000",
       "onion": "2025-10-19 10:21:57 +0000",
+      "potato": "2025-10-19 16:51:55 +0000",
+      "red_mushroom": "2025-10-19 15:54:13 +0000",
       "sweet_berries": "2025-10-14 11:15:04 +0000",
       "wheat": "2025-10-19 09:41:45 +0000",
+      "tomato": "2025-10-19 16:38:11 +0000",
       "rice": "2025-10-18 15:52:09 +0000"
     },
     "done": false
@@ -4803,51 +4810,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/white_dye": {
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
-      "has_bone_meal": "2025-10-19 10:03:57 +0000"
+      "has_iron_block": "2025-10-19 09:28:46 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/snow": {
+  "minecraft:recipes/decorations/anvil": {
     "criteria": {
-      "has_snowball": "2025-10-19 10:16:08 +0000"
+      "has_iron_block": "2025-10-19 09:28:46 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/light_blue_dye_from_felicia_daisy": {
+    "criteria": {
+      "has_felicia_daisy": "2025-10-19 09:34:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-10-19 09:41:45 +0000"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/stone_brick_stairs": {
     "criteria": {
       "has_stone_bricks": "2025-10-19 09:59:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/bread": {
-    "criteria": {
-      "has_wheat": "2025-10-19 10:05:55 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/building_blocks/rice_bale": {
-    "criteria": {
-      "has_rice_panicle": "2025-10-19 10:04:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/hay_block": {
-    "criteria": {
-      "has_wheat": "2025-10-19 10:05:55 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/rice": {
-    "criteria": {
-      "has_rice_panicle": "2025-10-19 10:04:17 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/appliances/tree_fertilizer": {
-    "criteria": {
-      "has_item": "2025-10-19 10:03:57 +0000"
     },
     "done": true
   },
@@ -4860,30 +4849,6 @@
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2025-10-19 09:59:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
-    "criteria": {
-      "has_iron_block": "2025-10-19 09:28:46 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/wheat_dough": {
-    "criteria": {
-      "has_wheat": "2025-10-19 10:05:55 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/pie_crust": {
-    "criteria": {
-      "has_wheat": "2025-10-19 10:05:55 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bone_block": {
-    "criteria": {
-      "has_bone_meal": "2025-10-19 10:03:57 +0000"
     },
     "done": true
   },
@@ -4923,27 +4888,285 @@
     },
     "done": true
   },
-  "minecraft:husbandry/plant_seed": {
+  "minecraft:recipes/misc/white_dye": {
     "criteria": {
-      "wheat": "2025-10-19 09:41:45 +0000"
+      "has_bone_meal": "2025-10-19 10:03:57 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/anvil": {
+  "create:recipes/misc/crafting/appliances/tree_fertilizer": {
     "criteria": {
-      "has_iron_block": "2025-10-19 09:28:46 +0000"
+      "has_item": "2025-10-19 10:03:57 +0000"
     },
     "done": true
   },
-  "regions_unexplored:recipes/misc/light_blue_dye_from_felicia_daisy": {
+  "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
-      "has_felicia_daisy": "2025-10-19 09:34:09 +0000"
+      "has_bone_meal": "2025-10-19 10:03:57 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/rice_bale": {
+    "criteria": {
+      "has_rice_panicle": "2025-10-19 10:04:17 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/rice": {
+    "criteria": {
+      "has_rice_panicle": "2025-10-19 10:04:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-10-19 10:05:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-10-19 10:05:55 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough": {
+    "criteria": {
+      "has_wheat": "2025-10-19 10:05:55 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/pie_crust": {
+    "criteria": {
+      "has_wheat": "2025-10-19 10:05:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-10-19 10:16:08 +0000"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
       "has_snowball": "2025-10-19 10:16:08 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/ashen_dirt_from_dirt": {
+    "criteria": {
+      "has_ash": "2025-10-19 16:13:52 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_organic_compost": {
+    "criteria": {
+      "place_organic_compost": "2025-10-19 15:48:40 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_campfire": {
+    "criteria": {
+      "campfire": "2025-10-19 15:44:41 +0000"
+    },
+    "done": true
+  },
+  "etherology:recipes/misc/inventor_table": {
+    "criteria": {
+      "has_wooden_slab": "2025-10-19 15:30:26 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/food/bell_pepper_roll_yellow": {
+    "criteria": {
+      "has_cooked_rice": "2025-10-19 16:44:20 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/food/calamari_roll": {
+    "criteria": {
+      "has_cooked_rice": "2025-10-19 16:44:20 +0000"
+    },
+    "done": true
+  },
+  "moredelight:recipes/food/chicken_salad": {
+    "criteria": {
+      "has_bowl": "2025-10-19 15:25:40 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/eat_comfort_food": {
+    "criteria": {
+      "comfort": "2025-10-19 16:44:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2025-10-19 16:22:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-10-19 16:13:39 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/food/cherry_blossom_roll": {
+    "criteria": {
+      "has_cooked_rice": "2025-10-19 16:44:20 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/tomato_crate": {
+    "criteria": {
+      "has_tomato": "2025-10-19 16:46:22 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/ashen_dirt_from_peat_dirt": {
+    "criteria": {
+      "has_ash": "2025-10-19 16:13:52 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/rice_from_bag": {
+    "criteria": {
+      "has_rice_bag": "2025-10-19 15:28:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2025-10-19 16:22:32 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/nether_salad": {
+    "criteria": {
+      "has_bowl": "2025-10-19 15:25:40 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_cooking_pot": {
+    "criteria": {
+      "cooking_pot": "2025-10-19 15:40:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-10-19 15:30:26 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/rice_panicle": {
+    "criteria": {
+      "has_rice_bale": "2025-10-19 15:24:38 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/cabbage_rolls": {
+    "criteria": {
+      "has_any_ingredient": "2025-10-19 16:47:39 +0000"
+    },
+    "done": true
+  },
+  "moredelight:recipes/food/tomato_sandwich": {
+    "criteria": {
+      "has_tomato": "2025-10-19 16:46:22 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/stove": {
+    "criteria": {
+      "has_campfire": "2025-10-19 15:43:07 +0000"
+    },
+    "done": true
+  },
+  "etherology:recipes/misc/channel_case": {
+    "criteria": {
+      "has_thuja_oil": "2025-10-19 15:23:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2025-10-19 16:09:27 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/fluid_tank": {
+    "criteria": {
+      "has_item": "2025-10-19 15:32:07 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mixed_salad": {
+    "criteria": {
+      "has_bowl": "2025-10-19 15:25:40 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/master_chef": {
+    "criteria": {
+      "cooked_rice": "2025-10-19 16:44:24 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-10-19 16:16:39 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/tomato_sauce": {
+    "criteria": {
+      "has_tomato": "2025-10-19 16:46:22 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/tomato_seeds": {
+    "criteria": {
+      "has_tomato": "2025-10-19 16:46:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2025-10-19 16:22:32 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/cabbage_crate": {
+    "criteria": {
+      "has_cabbage": "2025-10-19 16:47:39 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/food/bell_pepper_roll_red": {
+    "criteria": {
+      "has_cooked_rice": "2025-10-19 16:44:20 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/food/bell_pepper_roll_green": {
+    "criteria": {
+      "has_cooked_rice": "2025-10-19 16:44:20 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/item_vault": {
+    "criteria": {
+      "has_item": "2025-10-19 15:32:07 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/ashen_dirt_from_silt_dirt": {
+    "criteria": {
+      "has_ash": "2025-10-19 16:13:52 +0000"
     },
     "done": true
   },
