@@ -644,6 +644,7 @@
       "minecraft:pillager": "2025-10-14 11:12:49 +0000",
       "minecraft:skeleton": "2025-10-14 09:13:19 +0000",
       "minecraft:breeze": "2025-10-14 12:16:09 +0000",
+      "minecraft:magma_cube": "2025-10-21 12:01:41 +0000",
       "minecraft:spider": "2025-10-14 08:57:42 +0000",
       "minecraft:zombie": "2025-10-14 08:52:58 +0000",
       "minecraft:creeper": "2025-10-14 08:53:38 +0000",
@@ -4954,15 +4955,75 @@
     },
     "done": true
   },
-  "regions_unexplored:recipes/building_blocks/ashen_dirt_from_dirt": {
+  "etherology:recipes/misc/channel_case": {
     "criteria": {
-      "has_ash": "2025-10-19 16:13:52 +0000"
+      "has_thuja_oil": "2025-10-19 15:23:15 +0000"
     },
     "done": true
   },
-  "farmersdelight:main/place_organic_compost": {
+  "farmersdelight:recipes/food/rice_panicle": {
     "criteria": {
-      "place_organic_compost": "2025-10-19 15:48:40 +0000"
+      "has_rice_bale": "2025-10-19 15:24:38 +0000"
+    },
+    "done": true
+  },
+  "moredelight:recipes/food/chicken_salad": {
+    "criteria": {
+      "has_bowl": "2025-10-19 15:25:40 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/nether_salad": {
+    "criteria": {
+      "has_bowl": "2025-10-19 15:25:40 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mixed_salad": {
+    "criteria": {
+      "has_bowl": "2025-10-19 15:25:40 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/rice_from_bag": {
+    "criteria": {
+      "has_rice_bag": "2025-10-19 15:28:51 +0000"
+    },
+    "done": true
+  },
+  "etherology:recipes/misc/inventor_table": {
+    "criteria": {
+      "has_wooden_slab": "2025-10-19 15:30:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-10-19 15:30:26 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/fluid_tank": {
+    "criteria": {
+      "has_item": "2025-10-19 15:32:07 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/item_vault": {
+    "criteria": {
+      "has_item": "2025-10-19 15:32:07 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_cooking_pot": {
+    "criteria": {
+      "cooking_pot": "2025-10-19 15:40:45 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/stove": {
+    "criteria": {
+      "has_campfire": "2025-10-19 15:43:07 +0000"
     },
     "done": true
   },
@@ -4972,9 +5033,63 @@
     },
     "done": true
   },
-  "etherology:recipes/misc/inventor_table": {
+  "farmersdelight:main/place_organic_compost": {
     "criteria": {
-      "has_wooden_slab": "2025-10-19 15:30:26 +0000"
+      "place_organic_compost": "2025-10-19 15:48:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2025-10-19 16:09:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-10-19 16:13:39 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/ashen_dirt_from_dirt": {
+    "criteria": {
+      "has_ash": "2025-10-19 16:13:52 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/ashen_dirt_from_peat_dirt": {
+    "criteria": {
+      "has_ash": "2025-10-19 16:13:52 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/ashen_dirt_from_silt_dirt": {
+    "criteria": {
+      "has_ash": "2025-10-19 16:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-10-19 16:16:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2025-10-19 16:22:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2025-10-19 16:22:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2025-10-19 16:22:32 +0000"
     },
     "done": true
   },
@@ -4990,159 +5105,9 @@
     },
     "done": true
   },
-  "moredelight:recipes/food/chicken_salad": {
-    "criteria": {
-      "has_bowl": "2025-10-19 15:25:40 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/eat_comfort_food": {
-    "criteria": {
-      "comfort": "2025-10-19 16:44:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_basalt": {
-    "criteria": {
-      "has_basalt": "2025-10-19 16:22:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/lava_bucket": {
-    "criteria": {
-      "lava_bucket": "2025-10-19 16:13:39 +0000"
-    },
-    "done": true
-  },
   "rusticdelight:recipes/food/cherry_blossom_roll": {
     "criteria": {
       "has_cooked_rice": "2025-10-19 16:44:20 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/building_blocks/tomato_crate": {
-    "criteria": {
-      "has_tomato": "2025-10-19 16:46:22 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/building_blocks/ashen_dirt_from_peat_dirt": {
-    "criteria": {
-      "has_ash": "2025-10-19 16:13:52 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/rice_from_bag": {
-    "criteria": {
-      "has_rice_bag": "2025-10-19 15:28:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_basalt": {
-    "criteria": {
-      "has_basalt": "2025-10-19 16:22:32 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/nether_salad": {
-    "criteria": {
-      "has_bowl": "2025-10-19 15:25:40 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/place_cooking_pot": {
-    "criteria": {
-      "cooking_pot": "2025-10-19 15:40:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/composter": {
-    "criteria": {
-      "has_wood_slab": "2025-10-19 15:30:26 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/rice_panicle": {
-    "criteria": {
-      "has_rice_bale": "2025-10-19 15:24:38 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/cabbage_rolls": {
-    "criteria": {
-      "has_any_ingredient": "2025-10-19 16:47:39 +0000"
-    },
-    "done": true
-  },
-  "moredelight:recipes/food/tomato_sandwich": {
-    "criteria": {
-      "has_tomato": "2025-10-19 16:46:22 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/stove": {
-    "criteria": {
-      "has_campfire": "2025-10-19 15:43:07 +0000"
-    },
-    "done": true
-  },
-  "etherology:recipes/misc/channel_case": {
-    "criteria": {
-      "has_thuja_oil": "2025-10-19 15:23:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
-    "criteria": {
-      "kill_mob_near_sculk_catalyst": "2025-10-19 16:09:27 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/fluid_tank": {
-    "criteria": {
-      "has_item": "2025-10-19 15:32:07 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/mixed_salad": {
-    "criteria": {
-      "has_bowl": "2025-10-19 15:25:40 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/master_chef": {
-    "criteria": {
-      "cooked_rice": "2025-10-19 16:44:24 +0000"
-    },
-    "done": false
-  },
-  "minecraft:adventure/avoid_vibration": {
-    "criteria": {
-      "avoid_vibration": "2025-10-19 16:16:39 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/tomato_sauce": {
-    "criteria": {
-      "has_tomato": "2025-10-19 16:46:22 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/misc/tomato_seeds": {
-    "criteria": {
-      "has_tomato": "2025-10-19 16:46:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
-    "criteria": {
-      "has_basalt": "2025-10-19 16:22:32 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/building_blocks/cabbage_crate": {
-    "criteria": {
-      "has_cabbage": "2025-10-19 16:47:39 +0000"
     },
     "done": true
   },
@@ -5158,15 +5123,161 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/item_vault": {
+  "farmersdelight:main/eat_comfort_food": {
     "criteria": {
-      "has_item": "2025-10-19 15:32:07 +0000"
+      "comfort": "2025-10-19 16:44:24 +0000"
     },
     "done": true
   },
-  "regions_unexplored:recipes/building_blocks/ashen_dirt_from_silt_dirt": {
+  "farmersdelight:main/master_chef": {
     "criteria": {
-      "has_ash": "2025-10-19 16:13:52 +0000"
+      "cooked_rice": "2025-10-19 16:44:24 +0000"
+    },
+    "done": false
+  },
+  "farmersdelight:recipes/building_blocks/tomato_crate": {
+    "criteria": {
+      "has_tomato": "2025-10-19 16:46:22 +0000"
+    },
+    "done": true
+  },
+  "moredelight:recipes/food/tomato_sandwich": {
+    "criteria": {
+      "has_tomato": "2025-10-19 16:46:22 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/tomato_sauce": {
+    "criteria": {
+      "has_tomato": "2025-10-19 16:46:22 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/tomato_seeds": {
+    "criteria": {
+      "has_tomato": "2025-10-19 16:46:22 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/cabbage_rolls": {
+    "criteria": {
+      "has_any_ingredient": "2025-10-19 16:47:39 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/cabbage_crate": {
+    "criteria": {
+      "has_cabbage": "2025-10-19 16:47:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2025-10-21 12:00:27 +0000",
+      "minecraft:warped_forest": "2025-10-21 11:56:27 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-10-21 11:59:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2025-10-21 11:57:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2025-10-21 11:57:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2025-10-21 11:57:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2025-10-21 11:57:37 +0000",
+      "has_the_recipe": "2025-10-21 11:57:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-10-21 11:50:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-10-21 11:57:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2025-10-21 11:56:55 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/scoria": {
+    "criteria": {
+      "has_item": "2025-10-21 11:59:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-10-21 11:56:19 +0000"
+    },
+    "done": true
+  },
+  "etherology:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2025-10-21 11:57:37 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2025-10-21 12:02:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2025-10-21 11:57:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2025-10-21 11:57:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-10-21 11:56:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-10-21 11:59:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-10-21 11:50:12 +0000"
     },
     "done": true
   },
