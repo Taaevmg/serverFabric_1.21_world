@@ -39,6 +39,7 @@
     "criteria": {
       "mountains": "2025-10-18 14:54:53 +0000",
       "silver_birch_forest": "2025-10-14 11:24:45 +0000",
+      "shrubland": "2025-10-22 19:37:04 +0000",
       "boreal_forest": "2025-10-14 11:18:29 +0000",
       "pine_taiga": "2025-10-18 14:54:23 +0000",
       "autumnal_maple_forest": "2025-10-14 08:38:16 +0000",
@@ -58,6 +59,7 @@
       "gravel_beach": "2025-10-14 10:49:01 +0000",
       "highland_fields": "2025-10-18 14:53:52 +0000",
       "maple_forest": "2025-10-14 08:34:44 +0000",
+      "golden_boreal_taiga": "2025-10-22 19:40:26 +0000",
       "icy_heights": "2025-10-18 14:57:13 +0000",
       "magnolia_highlands": "2025-10-14 11:01:45 +0000",
       "bioshroom_caves": "2025-10-18 14:54:50 +0000",
@@ -72,6 +74,7 @@
       "temperate_grove": "2025-10-14 11:34:29 +0000",
       "frozen_tundra": "2025-10-18 14:57:46 +0000",
       "cold_river": "2025-10-14 10:54:51 +0000",
+      "shrubland": "2025-10-22 19:37:04 +0000",
       "pine_slopes": "2025-10-18 14:54:54 +0000",
       "poppy_fields": "2025-10-14 10:53:36 +0000",
       "grassy_beach": "2025-10-14 10:47:38 +0000",
@@ -86,6 +89,7 @@
       "maple_forest": "2025-10-14 08:34:44 +0000",
       "autumnal_maple_forest": "2025-10-14 08:38:16 +0000",
       "muddy_river": "2025-10-14 11:11:39 +0000",
+      "golden_boreal_taiga": "2025-10-22 19:40:26 +0000",
       "icy_heights": "2025-10-18 14:57:13 +0000",
       "magnolia_highlands": "2025-10-14 11:01:45 +0000",
       "lupine_plains": "2025-10-14 11:04:26 +0000"
@@ -595,29 +599,31 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2025-10-14 09:14:53 +0000",
-      "minecraft:savanna_plateau": "2025-10-14 11:42:55 +0000",
-      "minecraft:beach": "2025-10-14 11:26:16 +0000",
       "minecraft:old_growth_pine_taiga": "2025-10-14 11:15:32 +0000",
       "minecraft:forest": "2025-10-14 08:53:45 +0000",
       "minecraft:taiga": "2025-10-14 11:13:53 +0000",
       "minecraft:deep_ocean": "2025-10-14 11:07:11 +0000",
+      "minecraft:deep_cold_ocean": "2025-10-14 11:27:41 +0000",
+      "minecraft:frozen_river": "2025-10-18 14:57:45 +0000",
+      "minecraft:ocean": "2025-10-14 11:00:27 +0000",
+      "minecraft:sunflower_plains": "2025-10-14 09:49:47 +0000",
+      "minecraft:cherry_grove": "2025-10-14 11:39:37 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-10-14 11:47:20 +0000",
+      "minecraft:savanna_plateau": "2025-10-14 11:42:55 +0000",
+      "minecraft:beach": "2025-10-14 11:26:16 +0000",
+      "minecraft:dark_forest": "2025-10-22 19:40:24 +0000",
       "minecraft:river": "2025-10-14 10:46:46 +0000",
       "minecraft:lukewarm_ocean": "2025-10-14 11:45:25 +0000",
       "minecraft:stony_shore": "2025-10-14 10:47:36 +0000",
       "minecraft:snowy_plains": "2025-10-18 14:56:59 +0000",
       "minecraft:dripstone_caves": "2025-10-14 12:28:46 +0000",
       "minecraft:snowy_taiga": "2025-10-18 14:56:43 +0000",
-      "minecraft:deep_cold_ocean": "2025-10-14 11:27:41 +0000",
-      "minecraft:frozen_river": "2025-10-18 14:57:45 +0000",
       "minecraft:deep_dark": "2025-10-19 16:07:53 +0000",
-      "minecraft:ocean": "2025-10-14 11:00:27 +0000",
-      "minecraft:sunflower_plains": "2025-10-14 09:49:47 +0000",
-      "minecraft:cherry_grove": "2025-10-14 11:39:37 +0000",
       "minecraft:grove": "2025-10-18 14:56:57 +0000",
       "minecraft:meadow": "2025-10-18 14:54:02 +0000",
       "minecraft:savanna": "2025-10-14 11:41:27 +0000",
       "minecraft:plains": "2025-10-14 08:51:24 +0000",
-      "minecraft:deep_lukewarm_ocean": "2025-10-14 11:47:20 +0000"
+      "minecraft:jagged_peaks": "2025-10-22 19:52:59 +0000"
     },
     "done": false
   },
@@ -2806,6 +2812,7 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:goat": "2025-10-19 10:20:57 +0000",
+      "minecraft:chicken": "2025-10-22 19:44:06 +0000",
       "minecraft:wolf": "2025-10-14 09:49:04 +0000"
     },
     "done": false
@@ -5171,6 +5178,30 @@
     },
     "done": true
   },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-10-21 11:50:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-10-21 11:50:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-10-21 11:56:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-10-21 11:56:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:nether_wastes": "2025-10-21 12:00:27 +0000",
@@ -5178,9 +5209,15 @@
     },
     "done": false
   },
-  "minecraft:recipes/decorations/soul_torch": {
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
     "criteria": {
-      "has_soul_sand": "2025-10-21 11:59:39 +0000"
+      "has_warped_fungus": "2025-10-21 11:56:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-10-21 11:57:33 +0000"
     },
     "done": true
   },
@@ -5209,45 +5246,9 @@
     },
     "done": true
   },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2025-10-21 11:50:12 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/nether_brick": {
-    "criteria": {
-      "has_netherrack": "2025-10-21 11:57:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
-    "criteria": {
-      "has_warped_fungus": "2025-10-21 11:56:55 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/smelting/scoria": {
-    "criteria": {
-      "has_item": "2025-10-21 11:59:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2025-10-21 11:56:19 +0000"
-    },
-    "done": true
-  },
   "etherology:recipes/redstone/comparator": {
     "criteria": {
       "has_quartz": "2025-10-21 11:57:37 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/vegetable_noodles": {
-    "criteria": {
-      "has_any_ingredient": "2025-10-21 12:02:25 +0000"
     },
     "done": true
   },
@@ -5263,9 +5264,15 @@
     },
     "done": true
   },
-  "minecraft:nether/root": {
+  "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
-      "entered_nether": "2025-10-21 11:56:19 +0000"
+      "has_soul_sand": "2025-10-21 11:59:39 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/scoria": {
+    "criteria": {
+      "has_item": "2025-10-21 11:59:39 +0000"
     },
     "done": true
   },
@@ -5275,9 +5282,190 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/enchanting_table": {
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
     "criteria": {
-      "has_obsidian": "2025-10-21 11:50:12 +0000"
+      "has_any_ingredient": "2025-10-21 12:02:25 +0000"
+    },
+    "done": true
+  },
+  "storagedelight:recipes/decorations/oak_cabinet_with_glass_doors": {
+    "criteria": {
+      "has_oak_trapdoor": "2025-10-22 19:28:59 +0000"
+    },
+    "done": true
+  },
+  "storagedelight:recipes/decorations/oak_bookshelf_with_door": {
+    "criteria": {
+      "has_oak_trapdoor": "2025-10-22 19:28:59 +0000"
+    },
+    "done": true
+  },
+  "storagedelight:recipes/decorations/oak_drawer_with_door": {
+    "criteria": {
+      "has_oak_trapdoor": "2025-10-22 19:28:59 +0000"
+    },
+    "done": true
+  },
+  "storagedelight:recipes/decorations/oak_single_door_cabinet": {
+    "criteria": {
+      "has_oak_trapdoor": "2025-10-22 19:28:59 +0000"
+    },
+    "done": true
+  },
+  "storagedelight:recipes/decorations/glass_oak_cabinet": {
+    "criteria": {
+      "has_oak_trapdoor": "2025-10-22 19:28:59 +0000"
+    },
+    "done": true
+  },
+  "storagedelight:recipes/decorations/small_oak_drawers": {
+    "criteria": {
+      "has_oak_trapdoor": "2025-10-22 19:28:59 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/oak_cabinet": {
+    "criteria": {
+      "has_oak_trapdoor": "2025-10-22 19:28:59 +0000"
+    },
+    "done": true
+  },
+  "storagedelight:recipes/decorations/oak_drawer_with_books": {
+    "criteria": {
+      "has_oak_trapdoor": "2025-10-22 19:28:59 +0000"
+    },
+    "done": true
+  },
+  "storagedelight:recipes/decorations/oak_drawer": {
+    "criteria": {
+      "has_oak_trapdoor": "2025-10-22 19:28:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2025-10-22 19:38:19 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/birch_branch_from_birch_log": {
+    "criteria": {
+      "has_log": "2025-10-22 19:38:19 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/blue_bioshroom_from_tall_blue_bioshroom": {
+    "criteria": {
+      "has_tall_blue_bioshroom": "2025-10-22 19:39:36 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/blue_dye_from_blue_bioshroom": {
+    "criteria": {
+      "has_blue_bioshroom": "2025-10-22 19:39:43 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/blue_bioshroom_block": {
+    "criteria": {
+      "has_blue_bioshroom": "2025-10-22 19:39:43 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/tall_blue_bioshroom": {
+    "criteria": {
+      "has_blue_bioshroom": "2025-10-22 19:39:43 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:mycologist": {
+    "criteria": {
+      "blue_bioshroom": "2025-10-22 19:39:43 +0000",
+      "pink_bioshroom": "2025-10-22 19:39:55 +0000"
+    },
+    "done": false
+  },
+  "regions_unexplored:recipes/decorations/tall_pink_bioshroom": {
+    "criteria": {
+      "has_pink_bioshroom": "2025-10-22 19:39:55 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/pink_dye_from_pink_bioshroom": {
+    "criteria": {
+      "has_pink_bioshroom": "2025-10-22 19:39:55 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/pink_bioshroom_block": {
+    "criteria": {
+      "has_pink_bioshroom": "2025-10-22 19:39:55 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/pink_bioshroom_from_tall_pink_bioshroom": {
+    "criteria": {
+      "has_tall_pink_bioshroom": "2025-10-22 19:40:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2025-10-22 19:46:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-10-22 19:46:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-10-22 19:46:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-10-22 19:46:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-10-22 19:46:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-10-22 19:46:07 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/larch_sapling_from_larch_shrub": {
+    "criteria": {
+      "has_larch_shrub": "2025-10-22 19:48:10 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/orange_dye_from_orange_coneflower": {
+    "criteria": {
+      "has_orange_coneflower": "2025-10-22 19:50:53 +0000"
+    },
+    "done": true
+  },
+  "etherology:recipes/misc/leather": {
+    "criteria": {
+      "has_the_recipe": "2025-10-22 19:58:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2025-10-22 19:58:24 +0000"
     },
     "done": true
   },

@@ -40,6 +40,7 @@
       "mountains": "2025-10-15 17:45:56 +0000",
       "silver_birch_forest": "2025-10-14 11:24:06 +0000",
       "shrubland": "2025-10-14 10:52:54 +0000",
+      "redstone_abyss": "2025-10-22 12:08:18 +0000",
       "boreal_forest": "2025-10-14 09:08:39 +0000",
       "pine_taiga": "2025-10-14 10:48:26 +0000",
       "bayou": "2025-10-14 11:08:13 +0000",
@@ -734,10 +735,12 @@
       "minecraft:skeleton": "2025-10-14 09:14:32 +0000",
       "minecraft:phantom": "2025-10-18 09:58:21 +0000",
       "minecraft:stray": "2025-10-18 10:01:31 +0000",
+      "minecraft:witch": "2025-10-22 13:37:28 +0000",
       "minecraft:spider": "2025-10-14 09:16:57 +0000",
       "minecraft:zombie": "2025-10-14 09:16:38 +0000",
       "minecraft:creeper": "2025-10-14 09:46:40 +0000",
-      "minecraft:zombie_villager": "2025-10-14 09:14:44 +0000"
+      "minecraft:zombie_villager": "2025-10-14 09:14:44 +0000",
+      "minecraft:ghast": "2025-10-22 12:16:54 +0000"
     },
     "done": false
   },
@@ -4641,21 +4644,27 @@
     },
     "done": true
   },
-  "regions_unexplored:recipes/misc/pink_dye_from_salmon_poppy_bush": {
+  "farmersdelight:recipes/food/rice_panicle": {
     "criteria": {
-      "has_salmon_poppy_bush": "2025-10-19 18:03:57 +0000"
+      "has_rice_bale": "2025-10-19 15:24:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/rice_from_bag": {
+    "criteria": {
+      "has_rice_bag": "2025-10-19 15:28:59 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_mushroom_colony": {
+    "criteria": {
+      "red_mushroom_colony": "2025-10-19 15:55:02 +0000"
     },
     "done": true
   },
   "create:recipes/building_blocks/scoria_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2025-10-19 16:24:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
-    "criteria": {
-      "has_chicken": "2025-10-19 18:04:58 +0000"
     },
     "done": true
   },
@@ -4671,12 +4680,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/coal": {
-    "criteria": {
-      "has_coal_block": "2025-10-19 17:10:12 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_scoria_slab_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2025-10-19 16:24:32 +0000"
@@ -4686,30 +4689,6 @@
   "create:recipes/building_blocks/cut_scoria_bricks_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2025-10-19 16:24:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cherry_planks": {
-    "criteria": {
-      "has_log": "2025-10-19 17:13:56 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/decorations/cherry_branch_from_cherry_log": {
-    "criteria": {
-      "has_log": "2025-10-19 17:13:56 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/decorations/cherry_shrub": {
-    "criteria": {
-      "has_cherry_sapling": "2025-10-19 17:13:58 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/decorations/birch_shrub": {
-    "criteria": {
-      "has_birch_sapling": "2025-10-19 17:19:32 +0000"
     },
     "done": true
   },
@@ -4731,27 +4710,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_chicken_from_smoking": {
-    "criteria": {
-      "has_chicken": "2025-10-19 18:04:58 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/polished_cut_scoria_slab_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2025-10-19 16:24:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/blue_dye_from_cornflower": {
-    "criteria": {
-      "has_cornflower": "2025-10-19 17:13:39 +0000"
-    },
-    "done": true
-  },
-  "create:train_whistle": {
-    "criteria": {
-      "0": "2025-10-19 17:02:54 +0000"
     },
     "done": true
   },
@@ -4767,21 +4728,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/rice_from_bag": {
-    "criteria": {
-      "has_rice_bag": "2025-10-19 15:28:59 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_scoria_brick_wall_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2025-10-19 16:24:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken": {
-    "criteria": {
-      "has_chicken": "2025-10-19 18:04:58 +0000"
     },
     "done": true
   },
@@ -4791,27 +4740,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/rice_panicle": {
-    "criteria": {
-      "has_rice_bale": "2025-10-19 15:24:58 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_scoria_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2025-10-19 16:24:32 +0000"
-    },
-    "done": true
-  },
-  "spellbound_weapons:recipe/windsweeper": {
-    "criteria": {
-      "3": "2025-10-19 18:08:40 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cherry_wood": {
-    "criteria": {
-      "has_log": "2025-10-19 17:13:56 +0000"
     },
     "done": true
   },
@@ -4827,27 +4758,9 @@
     },
     "done": true
   },
-  "farmersdelight:main/get_mushroom_colony": {
-    "criteria": {
-      "red_mushroom_colony": "2025-10-19 15:55:02 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_scoria_brick_stairs_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2025-10-19 16:24:32 +0000"
-    },
-    "done": true
-  },
-  "etherology:recipes/misc/thuja_oil": {
-    "criteria": {
-      "has_thuja_seeds": "2025-10-19 17:46:09 +0000"
-    },
-    "done": true
-  },
-  "create:contraption_actors": {
-    "criteria": {
-      "0": "2025-10-19 17:13:20 +0000"
     },
     "done": true
   },
@@ -4869,9 +4782,201 @@
     },
     "done": true
   },
+  "create:train_whistle": {
+    "criteria": {
+      "0": "2025-10-19 17:02:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2025-10-19 17:10:12 +0000"
+    },
+    "done": true
+  },
+  "create:contraption_actors": {
+    "criteria": {
+      "0": "2025-10-19 17:13:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2025-10-19 17:13:39 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:recipes/misc/light_blue_dye_from_felicia_daisy": {
     "criteria": {
       "has_felicia_daisy": "2025-10-19 17:13:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2025-10-19 17:13:56 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/cherry_branch_from_cherry_log": {
+    "criteria": {
+      "has_log": "2025-10-19 17:13:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2025-10-19 17:13:56 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/cherry_shrub": {
+    "criteria": {
+      "has_cherry_sapling": "2025-10-19 17:13:58 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/birch_shrub": {
+    "criteria": {
+      "has_birch_sapling": "2025-10-19 17:19:32 +0000"
+    },
+    "done": true
+  },
+  "etherology:recipes/misc/thuja_oil": {
+    "criteria": {
+      "has_thuja_seeds": "2025-10-19 17:46:09 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/pink_dye_from_salmon_poppy_bush": {
+    "criteria": {
+      "has_salmon_poppy_bush": "2025-10-19 18:03:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-10-19 18:04:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-10-19 18:04:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-10-19 18:04:58 +0000"
+    },
+    "done": true
+  },
+  "spellbound_weapons:recipe/windsweeper": {
+    "criteria": {
+      "3": "2025-10-19 18:08:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:warped_forest": "2025-10-22 12:07:24 +0000"
+    },
+    "done": false
+  },
+  "regions_unexplored:eternal_expedition": {
+    "criteria": {
+      "redstone_abyss": "2025-10-22 12:08:18 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2025-10-22 13:50:58 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/spruce_window": {
+    "criteria": {
+      "has_ingredient": "2025-10-22 13:50:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2025-10-22 13:50:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-10-22 13:50:58 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/linked_controller": {
+    "criteria": {
+      "has_item": "2025-10-22 14:08:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-10-22 12:12:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/brass_ingot_from_decompacting": {
+    "criteria": {
+      "has_item": "2025-10-22 13:40:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-10-22 12:07:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2025-10-22 13:50:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2025-10-22 13:50:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-10-22 12:07:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-10-22 13:50:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2025-10-22 13:50:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-10-22 13:50:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2025-10-22 13:50:58 +0000"
     },
     "done": true
   },
