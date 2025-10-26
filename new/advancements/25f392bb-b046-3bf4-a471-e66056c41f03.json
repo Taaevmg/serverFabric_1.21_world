@@ -3783,7 +3783,8 @@
       "wheat": "2025-10-19 09:41:45 +0000",
       "tomato": "2025-10-19 16:38:11 +0000",
       "rice": "2025-10-18 15:52:09 +0000",
-      "kelp": "2025-10-25 06:47:37 +0000"
+      "kelp": "2025-10-25 06:47:37 +0000",
+      "brown_mushroom": "2025-10-25 15:36:56 +0000"
     },
     "done": false
   },
@@ -5539,6 +5540,84 @@
   "minecraft:recipes/misc/slime_ball": {
     "criteria": {
       "has_slime_block": "2025-10-25 06:49:33 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/pine_fence_gate": {
+    "criteria": {
+      "has_pine_planks": "2025-10-25 15:54:56 +0000"
+    },
+    "done": true
+  },
+  "beautify:progression/rope": {
+    "criteria": {
+      "obtain": "2025-10-25 15:35:46 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/pine_trapdoor": {
+    "criteria": {
+      "has_pine_planks": "2025-10-25 15:54:56 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/pine_fence": {
+    "criteria": {
+      "has_pine_planks": "2025-10-25 15:54:56 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/pine_pressure_plate": {
+    "criteria": {
+      "has_pine_planks": "2025-10-25 15:54:56 +0000"
+    },
+    "done": true
+  },
+  "beautify:hanging_pot": {
+    "criteria": {
+      "requirement": "2025-10-25 15:35:46 +0000"
+    },
+    "done": true
+  },
+  "beautify:progression/hanging_pot": {
+    "criteria": {
+      "obtain": "2025-10-25 15:36:22 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/pine_stairs": {
+    "criteria": {
+      "has_pine_planks": "2025-10-25 15:54:56 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/pine_sign": {
+    "criteria": {
+      "has_pine_planks": "2025-10-25 15:54:56 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/pine_button": {
+    "criteria": {
+      "has_pine_planks": "2025-10-25 15:54:56 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/pine_door": {
+    "criteria": {
+      "has_pine_planks": "2025-10-25 15:54:56 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/pine_slab": {
+    "criteria": {
+      "has_pine_planks": "2025-10-25 15:54:56 +0000"
+    },
+    "done": true
+  },
+  "beautify:botanist_workbench": {
+    "criteria": {
+      "requirement": "2025-10-25 15:36:05 +0000"
     },
     "done": true
   },
