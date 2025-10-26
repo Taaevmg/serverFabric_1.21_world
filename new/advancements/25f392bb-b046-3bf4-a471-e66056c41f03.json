@@ -650,6 +650,7 @@
       "minecraft:pillager": "2025-10-14 11:12:49 +0000",
       "minecraft:skeleton": "2025-10-14 09:13:19 +0000",
       "minecraft:breeze": "2025-10-14 12:16:09 +0000",
+      "minecraft:zombified_piglin": "2025-10-26 09:59:37 +0000",
       "minecraft:magma_cube": "2025-10-21 12:01:41 +0000",
       "minecraft:spider": "2025-10-14 08:57:42 +0000",
       "minecraft:zombie": "2025-10-14 08:52:58 +0000",
@@ -5543,15 +5544,33 @@
     },
     "done": true
   },
-  "regions_unexplored:recipes/redstone/pine_fence_gate": {
-    "criteria": {
-      "has_pine_planks": "2025-10-25 15:54:56 +0000"
-    },
-    "done": true
-  },
   "beautify:progression/rope": {
     "criteria": {
       "obtain": "2025-10-25 15:35:46 +0000"
+    },
+    "done": true
+  },
+  "beautify:hanging_pot": {
+    "criteria": {
+      "requirement": "2025-10-25 15:35:46 +0000"
+    },
+    "done": true
+  },
+  "beautify:botanist_workbench": {
+    "criteria": {
+      "requirement": "2025-10-25 15:36:05 +0000"
+    },
+    "done": true
+  },
+  "beautify:progression/hanging_pot": {
+    "criteria": {
+      "obtain": "2025-10-25 15:36:22 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/pine_fence_gate": {
+    "criteria": {
+      "has_pine_planks": "2025-10-25 15:54:56 +0000"
     },
     "done": true
   },
@@ -5570,18 +5589,6 @@
   "regions_unexplored:recipes/redstone/pine_pressure_plate": {
     "criteria": {
       "has_pine_planks": "2025-10-25 15:54:56 +0000"
-    },
-    "done": true
-  },
-  "beautify:hanging_pot": {
-    "criteria": {
-      "requirement": "2025-10-25 15:35:46 +0000"
-    },
-    "done": true
-  },
-  "beautify:progression/hanging_pot": {
-    "criteria": {
-      "obtain": "2025-10-25 15:36:22 +0000"
     },
     "done": true
   },
@@ -5612,12 +5619,6 @@
   "regions_unexplored:recipes/building_blocks/pine_slab": {
     "criteria": {
       "has_pine_planks": "2025-10-25 15:54:56 +0000"
-    },
-    "done": true
-  },
-  "beautify:botanist_workbench": {
-    "criteria": {
-      "requirement": "2025-10-25 15:36:05 +0000"
     },
     "done": true
   },
