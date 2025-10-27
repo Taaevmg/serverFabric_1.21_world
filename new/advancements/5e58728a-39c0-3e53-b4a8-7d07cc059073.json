@@ -4878,6 +4878,18 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-10-22 12:07:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-10-22 12:07:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:warped_forest": "2025-10-22 12:07:24 +0000"
@@ -4889,6 +4901,18 @@
       "redstone_abyss": "2025-10-22 12:08:18 +0000"
     },
     "done": false
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-10-22 12:12:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/brass_ingot_from_decompacting": {
+    "criteria": {
+      "has_item": "2025-10-22 13:40:30 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
@@ -4914,30 +4938,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/appliances/linked_controller": {
-    "criteria": {
-      "has_item": "2025-10-22 14:08:40 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/find_fortress": {
-    "criteria": {
-      "fortress": "2025-10-22 12:12:46 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/materials/brass_ingot_from_decompacting": {
-    "criteria": {
-      "has_item": "2025-10-22 13:40:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2025-10-22 12:07:23 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/spruce_sign": {
     "criteria": {
       "has_planks": "2025-10-22 13:50:58 +0000"
@@ -4947,12 +4947,6 @@
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2025-10-22 13:50:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/root": {
-    "criteria": {
-      "entered_nether": "2025-10-22 12:07:23 +0000"
     },
     "done": true
   },
@@ -4977,6 +4971,18 @@
   "minecraft:recipes/building_blocks/spruce_stairs": {
     "criteria": {
       "has_planks": "2025-10-22 13:50:58 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/linked_controller": {
+    "criteria": {
+      "has_item": "2025-10-22 14:08:40 +0000"
+    },
+    "done": true
+  },
+  "moredelight:main/get_egg_with_bacon_sandwich": {
+    "criteria": {
+      "egg_with_bacon_sandwich": "2025-10-27 07:10:51 +0000"
     },
     "done": true
   },
