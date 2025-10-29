@@ -3308,12 +3308,6 @@
     },
     "done": true
   },
-  "regions_unexplored:recipes/misc/pink_dye_from_salmon_poppy_bush": {
-    "criteria": {
-      "has_salmon_poppy_bush": "2025-10-19 18:07:26 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/crafting/kinetics/yellow_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2025-10-19 17:48:07 +0000"
@@ -3332,24 +3326,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
-    "criteria": {
-      "has_pink_dye": "2025-10-19 17:48:19 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/pink_candle": {
-    "criteria": {
-      "has_pink_dye": "2025-10-19 17:48:19 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_pink_bed": {
-    "criteria": {
-      "has_needed_dye": "2025-10-19 17:48:19 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/crafting/kinetics/red_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2025-10-19 17:48:07 +0000"
@@ -3359,12 +3335,6 @@
   "create:recipes/building_blocks/crafting/kinetics/orange_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2025-10-19 17:48:07 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/misc/pink_dye_from_pink_lupine": {
-    "criteria": {
-      "has_pink_lupine": "2025-10-19 17:54:17 +0000"
     },
     "done": true
   },
@@ -3380,12 +3350,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_pink_wool": {
-    "criteria": {
-      "has_needed_dye": "2025-10-19 17:48:19 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/crafting/kinetics/cyan_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2025-10-19 17:48:07 +0000"
@@ -3398,12 +3362,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_pink_carpet": {
-    "criteria": {
-      "has_needed_dye": "2025-10-19 17:48:19 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/crafting/kinetics/lime_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2025-10-19 17:48:07 +0000"
@@ -3413,12 +3371,6 @@
   "create:recipes/building_blocks/crafting/kinetics/purple_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2025-10-19 17:48:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
-    "criteria": {
-      "has_pink_dye": "2025-10-19 17:48:19 +0000"
     },
     "done": true
   },
@@ -3449,6 +3401,54 @@
   "create:recipes/building_blocks/crafting/kinetics/gray_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2025-10-19 17:48:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_pink_dye": "2025-10-19 17:48:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_candle": {
+    "criteria": {
+      "has_pink_dye": "2025-10-19 17:48:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-10-19 17:48:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-10-19 17:48:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-10-19 17:48:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_pink_dye": "2025-10-19 17:48:19 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/pink_dye_from_pink_lupine": {
+    "criteria": {
+      "has_pink_lupine": "2025-10-19 17:54:17 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/pink_dye_from_salmon_poppy_bush": {
+    "criteria": {
+      "has_salmon_poppy_bush": "2025-10-19 18:07:26 +0000"
     },
     "done": true
   },

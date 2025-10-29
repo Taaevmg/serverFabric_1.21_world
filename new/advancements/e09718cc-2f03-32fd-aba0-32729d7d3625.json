@@ -4324,12 +4324,6 @@
     },
     "done": false
   },
-  "regions_unexplored:recipes/decorations/spruce_shrub": {
-    "criteria": {
-      "has_spruce_sapling": "2025-10-27 12:02:48 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_asurine_brick_wall_from_stone_types_asurine_stonecutting": {
     "criteria": {
       "has_stone_types_asurine": "2025-10-27 11:52:34 +0000"
@@ -4341,12 +4335,6 @@
       "has_stone_types_asurine": "2025-10-27 11:52:34 +0000"
     },
     "done": true
-  },
-  "farmersdelight:main/plant_all_crops": {
-    "criteria": {
-      "sugar_cane": "2025-10-27 12:05:27 +0000"
-    },
-    "done": false
   },
   "create:recipes/building_blocks/small_asurine_brick_stairs_from_stone_types_asurine_stonecutting": {
     "criteria": {
@@ -4363,18 +4351,6 @@
   "create:recipes/building_blocks/cut_asurine_wall_from_stone_types_asurine_stonecutting": {
     "criteria": {
       "has_stone_types_asurine": "2025-10-27 11:52:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/slime_block": {
-    "criteria": {
-      "has_slime_ball": "2025-10-27 11:56:32 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:light_as_a_frog": {
-    "criteria": {
-      "lily_pad": "2025-10-27 11:55:18 +0000"
     },
     "done": true
   },
@@ -4426,12 +4402,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/lead": {
-    "criteria": {
-      "has_slime_ball": "2025-10-27 11:56:32 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_asurine_bricks_from_stone_types_asurine_stonecutting": {
     "criteria": {
       "has_stone_types_asurine": "2025-10-27 11:52:34 +0000"
@@ -4441,12 +4411,6 @@
   "create:recipes/building_blocks/small_asurine_brick_slab_from_stone_types_asurine_stonecutting": {
     "criteria": {
       "has_stone_types_asurine": "2025-10-27 11:52:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/sticky_piston": {
-    "criteria": {
-      "has_slime_ball": "2025-10-27 11:56:32 +0000"
     },
     "done": true
   },
@@ -4473,6 +4437,42 @@
       "has_stone_types_asurine": "2025-10-27 11:52:34 +0000"
     },
     "done": true
+  },
+  "regions_unexplored:light_as_a_frog": {
+    "criteria": {
+      "lily_pad": "2025-10-27 11:55:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2025-10-27 11:56:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2025-10-27 11:56:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-10-27 11:56:32 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/spruce_shrub": {
+    "criteria": {
+      "has_spruce_sapling": "2025-10-27 12:02:48 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "sugar_cane": "2025-10-27 12:05:27 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3953
 }
