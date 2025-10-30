@@ -4998,6 +4998,12 @@
     },
     "done": true
   },
+  "create:recipes/misc/smelting/glass_pane_from_framed_glass_pane": {
+    "criteria": {
+      "has_item": "2025-10-30 10:22:38 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/rotation_speed_controller": {
     "criteria": {
       "has_item": "2025-10-30 10:53:33 +0000"
@@ -5034,12 +5040,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/smelting/glass_pane_from_framed_glass_pane": {
-    "criteria": {
-      "has_item": "2025-10-30 10:22:38 +0000"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/brass_door": {
     "criteria": {
       "has_item": "2025-10-30 10:53:33 +0000"
@@ -5073,6 +5073,79 @@
   "create:recipes/misc/crafting/kinetics/nixie_tube": {
     "criteria": {
       "has_item": "2025-10-30 10:53:33 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/vertical_gearboxfrom_conversion": {
+    "criteria": {
+      "has_item": "2025-10-30 11:10:02 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/food/chocolate_coffee_from_milk_coffee": {
+    "criteria": {
+      "has_milk_coffee": "2025-10-30 11:07:38 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/food/honey_coffee_from_milk_coffee": {
+    "criteria": {
+      "has_milk_coffee": "2025-10-30 11:07:38 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/food/chocolate_coffee_from_coffee": {
+    "criteria": {
+      "has_coffee": "2025-10-30 11:07:37 +0000"
+    },
+    "done": true
+  },
+  "create:funnel": {
+    "criteria": {
+      "0": "2025-10-30 11:11:15 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/food/syrup_coffee_from_coffee": {
+    "criteria": {
+      "has_coffee": "2025-10-30 11:07:37 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/food/honey_coffee_from_coffee": {
+    "criteria": {
+      "has_coffee": "2025-10-30 11:07:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-10-30 11:04:43 +0000",
+      "has_the_recipe": "2025-10-30 11:04:43 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/food/milk_coffee": {
+    "criteria": {
+      "has_coffee": "2025-10-30 11:07:37 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/food/syrup_coffee_from_milk_coffee": {
+    "criteria": {
+      "has_milk_coffee": "2025-10-30 11:07:38 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/cooking/coffee_braised_beef": {
+    "criteria": {
+      "has_any_ingredient": "2025-10-30 11:07:37 +0000"
+    },
+    "done": true
+  },
+  "etherology:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-10-30 11:04:43 +0000"
     },
     "done": true
   },
