@@ -5076,9 +5076,46 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/vertical_gearboxfrom_conversion": {
+  "minecraft:recipes/redstone/repeater": {
     "criteria": {
-      "has_item": "2025-10-30 11:10:02 +0000"
+      "has_redstone_torch": "2025-10-30 11:04:43 +0000",
+      "has_the_recipe": "2025-10-30 11:04:43 +0000"
+    },
+    "done": true
+  },
+  "etherology:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-10-30 11:04:43 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/food/chocolate_coffee_from_coffee": {
+    "criteria": {
+      "has_coffee": "2025-10-30 11:07:37 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/food/syrup_coffee_from_coffee": {
+    "criteria": {
+      "has_coffee": "2025-10-30 11:07:37 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/food/honey_coffee_from_coffee": {
+    "criteria": {
+      "has_coffee": "2025-10-30 11:07:37 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/food/milk_coffee": {
+    "criteria": {
+      "has_coffee": "2025-10-30 11:07:37 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/cooking/coffee_braised_beef": {
+    "criteria": {
+      "has_any_ingredient": "2025-10-30 11:07:37 +0000"
     },
     "done": true
   },
@@ -5094,15 +5131,15 @@
     },
     "done": true
   },
-  "rusticdelight:recipes/food/chocolate_coffee_from_coffee": {
+  "rusticdelight:recipes/food/syrup_coffee_from_milk_coffee": {
     "criteria": {
-      "has_coffee": "2025-10-30 11:07:37 +0000"
+      "has_milk_coffee": "2025-10-30 11:07:38 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/black_terracotta": {
+  "create:recipes/misc/crafting/kinetics/vertical_gearboxfrom_conversion": {
     "criteria": {
-      "has_terracotta": "2025-10-30 11:39:13 +0000"
+      "has_item": "2025-10-30 11:10:02 +0000"
     },
     "done": true
   },
@@ -5112,15 +5149,15 @@
     },
     "done": true
   },
-  "rusticdelight:recipes/food/syrup_coffee_from_coffee": {
+  "minecraft:recipes/food/honey_bottle": {
     "criteria": {
-      "has_coffee": "2025-10-30 11:07:37 +0000"
+      "has_honey_block": "2025-10-30 11:37:38 +0000"
     },
     "done": true
   },
-  "rusticdelight:recipes/food/honey_coffee_from_coffee": {
+  "minecraft:recipes/building_blocks/black_terracotta": {
     "criteria": {
-      "has_coffee": "2025-10-30 11:07:37 +0000"
+      "has_terracotta": "2025-10-30 11:39:13 +0000"
     },
     "done": true
   },
@@ -5145,25 +5182,6 @@
   "minecraft:recipes/building_blocks/yellow_terracotta": {
     "criteria": {
       "has_terracotta": "2025-10-30 11:39:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/repeater": {
-    "criteria": {
-      "has_redstone_torch": "2025-10-30 11:04:43 +0000",
-      "has_the_recipe": "2025-10-30 11:04:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/honey_bottle": {
-    "criteria": {
-      "has_honey_block": "2025-10-30 11:37:38 +0000"
-    },
-    "done": true
-  },
-  "rusticdelight:recipes/food/milk_coffee": {
-    "criteria": {
-      "has_coffee": "2025-10-30 11:07:37 +0000"
     },
     "done": true
   },
@@ -5203,39 +5221,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/orange_glazed_terracotta": {
-    "criteria": {
-      "has_orange_terracotta": "2025-10-30 11:39:38 +0000"
-    },
-    "done": true
-  },
-  "rusticdelight:recipes/food/syrup_coffee_from_milk_coffee": {
-    "criteria": {
-      "has_milk_coffee": "2025-10-30 11:07:38 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/red_terracotta": {
     "criteria": {
       "has_terracotta": "2025-10-30 11:39:13 +0000"
     },
     "done": true
   },
-  "rusticdelight:recipes/cooking/coffee_braised_beef": {
-    "criteria": {
-      "has_any_ingredient": "2025-10-30 11:07:37 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/purple_terracotta": {
     "criteria": {
       "has_terracotta": "2025-10-30 11:39:13 +0000"
-    },
-    "done": true
-  },
-  "etherology:recipes/redstone/repeater": {
-    "criteria": {
-      "has_redstone_torch": "2025-10-30 11:04:43 +0000"
     },
     "done": true
   },
@@ -5254,6 +5248,12 @@
   "minecraft:recipes/building_blocks/green_terracotta": {
     "criteria": {
       "has_terracotta": "2025-10-30 11:39:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2025-10-30 11:39:38 +0000"
     },
     "done": true
   },
