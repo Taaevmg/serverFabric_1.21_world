@@ -5443,6 +5443,12 @@
     },
     "done": true
   },
+  "create:speed_controller": {
+    "criteria": {
+      "0": "2025-10-30 18:27:44 +0000"
+    },
+    "done": true
+  },
   "spellbound_weapons:recipe/thorn_blossom_diamond": {
     "criteria": {
       "2": "2025-10-30 18:24:47 +0000"
