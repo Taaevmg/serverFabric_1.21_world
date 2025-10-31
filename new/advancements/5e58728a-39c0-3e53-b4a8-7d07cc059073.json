@@ -5257,9 +5257,81 @@
     },
     "done": true
   },
+  "create:burner": {
+    "criteria": {
+      "0": "2025-10-30 17:51:03 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/portable_fluid_interface": {
     "criteria": {
       "has_item": "2025-10-30 17:54:26 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/spout": {
+    "criteria": {
+      "has_item": "2025-10-30 17:54:26 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/copper_door": {
+    "criteria": {
+      "has_item": "2025-10-30 17:54:26 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/item_drain": {
+    "criteria": {
+      "has_item": "2025-10-30 17:54:26 +0000"
+    },
+    "done": true
+  },
+  "create:steam_engine": {
+    "criteria": {
+      "0": "2025-10-30 17:56:04 +0000"
+    },
+    "done": true
+  },
+  "create:steam_engine_maxed": {
+    "criteria": {
+      "0": "2025-10-30 17:56:04 +0000"
+    },
+    "done": true
+  },
+  "create:mechanical_pump_0": {
+    "criteria": {
+      "0": "2025-10-30 17:56:35 +0000"
+    },
+    "done": true
+  },
+  "create:water_supply": {
+    "criteria": {
+      "0": "2025-10-30 17:56:35 +0000"
+    },
+    "done": true
+  },
+  "create:glass_pipe": {
+    "criteria": {
+      "0": "2025-10-30 17:57:06 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/speedometerfrom_conversion": {
+    "criteria": {
+      "has_item": "2025-10-30 18:01:25 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/stressometerfrom_conversion": {
+    "criteria": {
+      "has_item": "2025-10-30 18:01:27 +0000"
+    },
+    "done": true
+  },
+  "create:stressometer": {
+    "criteria": {
+      "0": "2025-10-30 18:01:40 +0000"
     },
     "done": true
   },
@@ -5275,12 +5347,6 @@
     },
     "done": true
   },
-  "create:glass_pipe": {
-    "criteria": {
-      "0": "2025-10-30 17:57:06 +0000"
-    },
-    "done": true
-  },
   "beautify:lamps": {
     "criteria": {
       "requirement": "2025-10-30 18:24:47 +0000"
@@ -5293,12 +5359,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/spout": {
-    "criteria": {
-      "has_item": "2025-10-30 17:54:26 +0000"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/steam_engine": {
     "criteria": {
       "has_item": "2025-10-30 18:24:47 +0000"
@@ -5308,12 +5368,6 @@
   "minecraft:recipes/redstone/lightning_rod": {
     "criteria": {
       "has_copper_ingot": "2025-10-30 18:24:47 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/speedometerfrom_conversion": {
-    "criteria": {
-      "has_item": "2025-10-30 18:01:25 +0000"
     },
     "done": true
   },
@@ -5347,12 +5401,6 @@
     },
     "done": true
   },
-  "create:mechanical_pump_0": {
-    "criteria": {
-      "0": "2025-10-30 17:56:35 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/brush": {
     "criteria": {
       "has_copper_ingot": "2025-10-30 18:24:47 +0000"
@@ -5377,27 +5425,9 @@
     },
     "done": true
   },
-  "create:steam_engine": {
-    "criteria": {
-      "0": "2025-10-30 17:56:04 +0000"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/copper_valve_handle_from_others": {
     "criteria": {
       "has_item": "2025-10-30 18:24:47 +0000"
-    },
-    "done": true
-  },
-  "create:burner": {
-    "criteria": {
-      "0": "2025-10-30 17:51:03 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/copper_door": {
-    "criteria": {
-      "has_item": "2025-10-30 17:54:26 +0000"
     },
     "done": true
   },
@@ -5413,18 +5443,6 @@
     },
     "done": true
   },
-  "create:steam_engine_maxed": {
-    "criteria": {
-      "0": "2025-10-30 17:56:04 +0000"
-    },
-    "done": true
-  },
-  "create:stressometer": {
-    "criteria": {
-      "0": "2025-10-30 18:01:40 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/copper_shingles_from_ingots_copper_stonecutting": {
     "criteria": {
       "has_ingots_copper": "2025-10-30 18:24:47 +0000"
@@ -5434,18 +5452,6 @@
   "create:recipes/misc/crafting/kinetics/fluid_pipe": {
     "criteria": {
       "has_item": "2025-10-30 18:24:47 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/stressometerfrom_conversion": {
-    "criteria": {
-      "has_item": "2025-10-30 18:01:27 +0000"
-    },
-    "done": true
-  },
-  "create:speed_controller": {
-    "criteria": {
-      "0": "2025-10-30 18:27:44 +0000"
     },
     "done": true
   },
@@ -5473,12 +5479,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/item_drain": {
-    "criteria": {
-      "has_item": "2025-10-30 17:54:26 +0000"
-    },
-    "done": true
-  },
   "create:recipes/decorations/copper_scaffolding_from_ingots_copper_stonecutting": {
     "criteria": {
       "has_ingots_copper": "2025-10-30 18:24:47 +0000"
@@ -5497,15 +5497,15 @@
     },
     "done": true
   },
-  "create:water_supply": {
-    "criteria": {
-      "0": "2025-10-30 17:56:35 +0000"
-    },
-    "done": true
-  },
   "spellbound_weapons:recipe/thorn_blossom": {
     "criteria": {
       "2": "2025-10-30 18:24:47 +0000"
+    },
+    "done": true
+  },
+  "create:speed_controller": {
+    "criteria": {
+      "0": "2025-10-30 18:27:44 +0000"
     },
     "done": true
   },
