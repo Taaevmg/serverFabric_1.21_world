@@ -5509,5 +5509,23 @@
     },
     "done": true
   },
+  "create:recipes/misc/crafting/kinetics/gearboxfrom_conversion": {
+    "criteria": {
+      "has_item": "2025-10-31 17:56:31 +0000"
+    },
+    "done": true
+  },
+  "create:linked_controller": {
+    "criteria": {
+      "0": "2025-10-31 17:42:24 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/linear_chassisfrom_conversion": {
+    "criteria": {
+      "has_item": "2025-10-31 17:34:41 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
