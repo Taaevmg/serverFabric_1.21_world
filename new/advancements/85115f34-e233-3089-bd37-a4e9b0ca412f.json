@@ -4601,6 +4601,7 @@
   },
   "regions_unexplored:got_wood": {
     "criteria": {
+      "willow_log": "2025-11-01 15:46:48 +0000",
       "maple_log": "2025-10-27 13:05:08 +0000"
     },
     "done": false
@@ -5472,6 +5473,24 @@
   "beautify:blinds": {
     "criteria": {
       "requirement": "2025-11-01 14:57:15 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/willow_branch_from_willow_log": {
+    "criteria": {
+      "has_log": "2025-11-01 15:46:48 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/willow_wood": {
+    "criteria": {
+      "has_log": "2025-11-01 15:46:48 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/willow_planks": {
+    "criteria": {
+      "has_logs": "2025-11-01 15:46:48 +0000"
     },
     "done": true
   },
