@@ -1986,6 +1986,7 @@
       "minecraft:wither_skeleton": "2025-10-22 12:13:23 +0000",
       "minecraft:bogged": "2025-10-22 15:59:58 +0000",
       "minecraft:hoglin": "2025-10-28 12:40:18 +0000",
+      "minecraft:piglin": "2025-11-01 16:36:33 +0000",
       "minecraft:silverfish": "2025-10-20 16:00:14 +0000",
       "minecraft:enderman": "2025-10-22 12:39:33 +0000",
       "minecraft:magma_cube": "2025-10-22 12:02:20 +0000",
@@ -5455,6 +5456,12 @@
   "moredelight:recipes/cooking/diced_potatoes_with_chicken_cuts": {
     "criteria": {
       "has_any_ingredient": "2025-11-01 15:23:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-11-01 16:46:32 +0000"
     },
     "done": true
   },
