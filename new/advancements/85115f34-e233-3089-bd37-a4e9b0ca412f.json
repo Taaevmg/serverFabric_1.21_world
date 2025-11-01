@@ -5464,15 +5464,57 @@
     },
     "done": true
   },
+  "storagedelight:recipes/decorations/cherry_cabinet_with_glass_doors": {
+    "criteria": {
+      "has_cherry_trapdoor": "2025-11-01 16:14:26 +0000"
+    },
+    "done": true
+  },
+  "storagedelight:recipes/decorations/small_cherry_drawers": {
+    "criteria": {
+      "has_cherry_trapdoor": "2025-11-01 16:14:26 +0000"
+    },
+    "done": true
+  },
+  "storagedelight:recipes/decorations/cherry_drawer_with_door": {
+    "criteria": {
+      "has_cherry_trapdoor": "2025-11-01 16:14:26 +0000"
+    },
+    "done": true
+  },
+  "storagedelight:recipes/decorations/cherry_drawer": {
+    "criteria": {
+      "has_cherry_trapdoor": "2025-11-01 16:14:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_chicken": {
     "criteria": {
       "has_chicken": "2025-11-01 15:23:23 +0000"
     },
     "done": true
   },
+  "storagedelight:recipes/decorations/glass_cherry_cabinet": {
+    "criteria": {
+      "has_cherry_trapdoor": "2025-11-01 16:14:26 +0000"
+    },
+    "done": true
+  },
+  "storagedelight:recipes/decorations/cherry_single_door_cabinet": {
+    "criteria": {
+      "has_cherry_trapdoor": "2025-11-01 16:14:26 +0000"
+    },
+    "done": true
+  },
   "beautify:blinds": {
     "criteria": {
       "requirement": "2025-11-01 14:57:15 +0000"
+    },
+    "done": true
+  },
+  "storagedelight:recipes/decorations/cherry_bookshelf_with_door": {
+    "criteria": {
+      "has_cherry_trapdoor": "2025-11-01 16:14:26 +0000"
     },
     "done": true
   },
@@ -5494,9 +5536,21 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/decorations/cherry_cabinet": {
+    "criteria": {
+      "has_cherry_trapdoor": "2025-11-01 16:14:26 +0000"
+    },
+    "done": true
+  },
   "moredelight:recipes/cooking/cooked_rice_with_chicken_cuts": {
     "criteria": {
       "has_any_ingredient": "2025-11-01 15:23:23 +0000"
+    },
+    "done": true
+  },
+  "storagedelight:recipes/decorations/cherry_drawer_with_books": {
+    "criteria": {
+      "has_cherry_trapdoor": "2025-11-01 16:14:26 +0000"
     },
     "done": true
   },
