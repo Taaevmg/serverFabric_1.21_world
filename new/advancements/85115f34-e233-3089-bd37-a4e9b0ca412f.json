@@ -43,6 +43,7 @@
       "minecraft:river": "2025-10-22 15:12:08 +0000",
       "minecraft:stony_shore": "2025-10-20 14:06:37 +0000",
       "minecraft:snowy_plains": "2025-10-20 14:55:22 +0000",
+      "minecraft:lush_caves": "2025-11-02 14:06:40 +0000",
       "minecraft:snowy_taiga": "2025-10-20 14:55:12 +0000",
       "minecraft:frozen_river": "2025-10-20 14:57:26 +0000",
       "minecraft:windswept_forest": "2025-10-22 15:49:02 +0000",
@@ -117,6 +118,7 @@
       "highland_fields": "2025-10-20 14:20:02 +0000",
       "maple_forest": "2025-10-20 14:54:12 +0000",
       "icy_heights": "2025-10-20 14:55:31 +0000",
+      "magnolia_highlands": "2025-11-02 14:01:59 +0000",
       "bioshroom_caves": "2025-10-20 14:21:50 +0000",
       "lupine_plains": "2025-10-20 14:21:34 +0000"
     },
@@ -145,6 +147,7 @@
       "towering_cliffs": "2025-10-20 15:57:03 +0000",
       "icy_heights": "2025-10-20 14:55:31 +0000",
       "bamboo_forest": "2025-10-22 15:53:33 +0000",
+      "magnolia_highlands": "2025-11-02 14:01:59 +0000",
       "marsh": "2025-10-22 15:53:39 +0000",
       "lupine_plains": "2025-10-20 14:21:34 +0000"
     },
@@ -5452,33 +5455,21 @@
     },
     "done": true
   },
+  "beautify:blinds": {
+    "criteria": {
+      "requirement": "2025-11-01 14:57:15 +0000"
+    },
+    "done": true
+  },
+  "beautify:trellis": {
+    "criteria": {
+      "requirement": "2025-11-01 14:57:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
     "criteria": {
       "has_chicken": "2025-11-01 15:23:23 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/redstone/green_bioshroom_fence_gate": {
-    "criteria": {
-      "has_green_bioshroom_planks": "2025-11-01 17:28:23 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/lapis_block": {
-    "criteria": {
-      "has_lapis_lazuli": "2025-11-01 17:35:15 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/misc/blue_bioshroom_from_tall_blue_bioshroom": {
-    "criteria": {
-      "has_tall_blue_bioshroom": "2025-11-01 17:50:37 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/redstone/blue_bioshroom_door": {
-    "criteria": {
-      "has_blue_bioshroom_planks": "2025-11-01 17:57:07 +0000"
     },
     "done": true
   },
@@ -5488,75 +5479,45 @@
     },
     "done": true
   },
-  "regions_unexplored:recipes/building_blocks/green_bioshroom_planks": {
-    "criteria": {
-      "has_logs": "2025-11-01 17:11:59 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/decorations/green_bioshroom_fence": {
-    "criteria": {
-      "has_green_bioshroom_planks": "2025-11-01 17:28:23 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/redstone/blue_bioshroom_pressure_plate": {
-    "criteria": {
-      "has_blue_bioshroom_planks": "2025-11-01 17:57:07 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/building_blocks/pink_bioshroom_hyphae": {
-    "criteria": {
-      "has_log": "2025-11-01 17:51:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/voluntary_exile": {
-    "criteria": {
-      "voluntary_exile": "2025-11-01 17:43:28 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/clay": {
-    "criteria": {
-      "has_clay_ball": "2025-11-01 18:45:36 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/building_blocks/blue_bioshroom_stairs": {
-    "criteria": {
-      "has_blue_bioshroom_planks": "2025-11-01 17:57:07 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/building_blocks/blue_bioshroom_hyphae": {
-    "criteria": {
-      "has_log": "2025-11-01 17:51:19 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/ol_betsy": {
-    "criteria": {
-      "shot_crossbow": "2025-11-01 16:46:32 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/redstone/green_bioshroom_button": {
-    "criteria": {
-      "has_green_bioshroom_planks": "2025-11-01 17:28:23 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/building_blocks/pink_bioshroom_planks": {
-    "criteria": {
-      "has_logs": "2025-11-01 17:51:34 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2025-11-01 15:23:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-11-01 15:23:23 +0000"
+    },
+    "done": true
+  },
+  "moredelight:recipes/cooking/cooked_rice_with_chicken_cuts": {
+    "criteria": {
+      "has_any_ingredient": "2025-11-01 15:23:23 +0000"
+    },
+    "done": true
+  },
+  "moredelight:recipes/cooking/creamy_pasta_with_chicken_cuts": {
+    "criteria": {
+      "has_any_ingredient": "2025-11-01 15:23:23 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/willow_branch_from_willow_log": {
+    "criteria": {
+      "has_log": "2025-11-01 15:46:48 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/willow_wood": {
+    "criteria": {
+      "has_log": "2025-11-01 15:46:48 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/willow_planks": {
+    "criteria": {
+      "has_logs": "2025-11-01 15:46:48 +0000"
     },
     "done": true
   },
@@ -5578,87 +5539,9 @@
     },
     "done": true
   },
-  "regions_unexplored:recipes/building_blocks/brimwood_planks": {
-    "criteria": {
-      "has_logs": "2025-11-01 18:07:05 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/redstone/blue_bioshroom_button": {
-    "criteria": {
-      "has_blue_bioshroom_planks": "2025-11-01 17:57:07 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/building_blocks/blue_bioshroom_planks": {
-    "criteria": {
-      "has_logs": "2025-11-01 17:51:19 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/brick": {
-    "criteria": {
-      "has_clay_ball": "2025-11-01 18:45:36 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/building_blocks/green_bioshroom_stairs": {
-    "criteria": {
-      "has_green_bioshroom_planks": "2025-11-01 17:28:23 +0000"
-    },
-    "done": true
-  },
   "storagedelight:recipes/decorations/cherry_drawer": {
     "criteria": {
       "has_cherry_trapdoor": "2025-11-01 16:14:26 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/decorations/blue_bioshroom_fence": {
-    "criteria": {
-      "has_blue_bioshroom_planks": "2025-11-01 17:57:07 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/misc/blue_dye_from_blue_bioshroom": {
-    "criteria": {
-      "has_blue_bioshroom": "2025-11-01 17:50:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/blue_dye": {
-    "criteria": {
-      "has_lapis_lazuli": "2025-11-01 17:35:15 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/building_blocks/blue_bioshroom_block": {
-    "criteria": {
-      "has_blue_bioshroom": "2025-11-01 17:50:49 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/decorations/green_bioshroom_sign": {
-    "criteria": {
-      "has_green_bioshroom_planks": "2025-11-01 17:28:23 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/misc/willow_sapling_from_willow_shrub": {
-    "criteria": {
-      "has_willow_shrub": "2025-11-01 17:00:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken": {
-    "criteria": {
-      "has_chicken": "2025-11-01 15:23:23 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/building_blocks/green_bioshroom_hyphae": {
-    "criteria": {
-      "has_log": "2025-11-01 17:11:59 +0000"
     },
     "done": true
   },
@@ -5674,93 +5557,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bricks": {
-    "criteria": {
-      "has_brick": "2025-11-01 18:58:35 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/redstone/blue_bioshroom_fence_gate": {
-    "criteria": {
-      "has_blue_bioshroom_planks": "2025-11-01 17:57:07 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:downer": {
-    "criteria": {
-      "dorcel": "2025-11-01 18:00:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/enchant_item": {
-    "criteria": {
-      "enchanted_item": "2025-11-01 17:48:29 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/decorations/tall_blue_bioshroom": {
-    "criteria": {
-      "has_blue_bioshroom": "2025-11-01 17:50:49 +0000"
-    },
-    "done": true
-  },
-  "beautify:blinds": {
-    "criteria": {
-      "requirement": "2025-11-01 14:57:15 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/building_blocks/brimwood_wood": {
-    "criteria": {
-      "has_log": "2025-11-01 18:07:05 +0000"
-    },
-    "done": true
-  },
   "storagedelight:recipes/decorations/cherry_bookshelf_with_door": {
     "criteria": {
       "has_cherry_trapdoor": "2025-11-01 16:14:26 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/skillet": {
-    "criteria": {
-      "has_brick": "2025-11-01 18:58:35 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/decorations/willow_branch_from_willow_log": {
-    "criteria": {
-      "has_log": "2025-11-01 15:46:48 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/decorated_pot_simple": {
-    "criteria": {
-      "has_brick": "2025-11-01 18:58:35 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/redstone/green_bioshroom_pressure_plate": {
-    "criteria": {
-      "has_green_bioshroom_planks": "2025-11-01 17:28:23 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/building_blocks/willow_wood": {
-    "criteria": {
-      "has_log": "2025-11-01 15:46:48 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/decorations/blue_bioshroom_sign": {
-    "criteria": {
-      "has_blue_bioshroom_planks": "2025-11-01 17:57:07 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/building_blocks/willow_planks": {
-    "criteria": {
-      "has_logs": "2025-11-01 15:46:48 +0000"
     },
     "done": true
   },
@@ -5770,15 +5569,33 @@
     },
     "done": true
   },
-  "regions_unexplored:recipes/redstone/blue_bioshroom_trapdoor": {
+  "storagedelight:recipes/decorations/cherry_drawer_with_books": {
     "criteria": {
-      "has_blue_bioshroom_planks": "2025-11-01 17:57:07 +0000"
+      "has_cherry_trapdoor": "2025-11-01 16:14:26 +0000"
     },
     "done": true
   },
-  "regions_unexplored:recipes/redstone/green_bioshroom_door": {
+  "minecraft:adventure/ol_betsy": {
     "criteria": {
-      "has_green_bioshroom_planks": "2025-11-01 17:28:23 +0000"
+      "shot_crossbow": "2025-11-01 16:46:32 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/willow_sapling_from_willow_shrub": {
+    "criteria": {
+      "has_willow_shrub": "2025-11-01 17:00:24 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/green_bioshroom_planks": {
+    "criteria": {
+      "has_logs": "2025-11-01 17:11:59 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/green_bioshroom_hyphae": {
+    "criteria": {
+      "has_log": "2025-11-01 17:11:59 +0000"
     },
     "done": true
   },
@@ -5790,15 +5607,51 @@
     },
     "done": false
   },
-  "regions_unexplored:recipes/building_blocks/green_bioshroom_slab": {
+  "regions_unexplored:recipes/redstone/green_bioshroom_fence_gate": {
     "criteria": {
       "has_green_bioshroom_planks": "2025-11-01 17:28:23 +0000"
     },
     "done": true
   },
-  "moredelight:recipes/cooking/cooked_rice_with_chicken_cuts": {
+  "regions_unexplored:recipes/decorations/green_bioshroom_fence": {
     "criteria": {
-      "has_any_ingredient": "2025-11-01 15:23:23 +0000"
+      "has_green_bioshroom_planks": "2025-11-01 17:28:23 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/green_bioshroom_button": {
+    "criteria": {
+      "has_green_bioshroom_planks": "2025-11-01 17:28:23 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/green_bioshroom_stairs": {
+    "criteria": {
+      "has_green_bioshroom_planks": "2025-11-01 17:28:23 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/green_bioshroom_sign": {
+    "criteria": {
+      "has_green_bioshroom_planks": "2025-11-01 17:28:23 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/green_bioshroom_pressure_plate": {
+    "criteria": {
+      "has_green_bioshroom_planks": "2025-11-01 17:28:23 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/green_bioshroom_door": {
+    "criteria": {
+      "has_green_bioshroom_planks": "2025-11-01 17:28:23 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/green_bioshroom_slab": {
+    "criteria": {
+      "has_green_bioshroom_planks": "2025-11-01 17:28:23 +0000"
     },
     "done": true
   },
@@ -5808,15 +5661,177 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-11-01 17:35:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-11-01 17:35:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-11-01 17:43:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2025-11-01 17:48:29 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/blue_bioshroom_from_tall_blue_bioshroom": {
+    "criteria": {
+      "has_tall_blue_bioshroom": "2025-11-01 17:50:37 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/blue_dye_from_blue_bioshroom": {
+    "criteria": {
+      "has_blue_bioshroom": "2025-11-01 17:50:49 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/blue_bioshroom_block": {
+    "criteria": {
+      "has_blue_bioshroom": "2025-11-01 17:50:49 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/tall_blue_bioshroom": {
+    "criteria": {
+      "has_blue_bioshroom": "2025-11-01 17:50:49 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/blue_bioshroom_hyphae": {
+    "criteria": {
+      "has_log": "2025-11-01 17:51:19 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/blue_bioshroom_planks": {
+    "criteria": {
+      "has_logs": "2025-11-01 17:51:19 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/pink_bioshroom_hyphae": {
+    "criteria": {
+      "has_log": "2025-11-01 17:51:34 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/pink_bioshroom_planks": {
+    "criteria": {
+      "has_logs": "2025-11-01 17:51:34 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/blue_bioshroom_door": {
+    "criteria": {
+      "has_blue_bioshroom_planks": "2025-11-01 17:57:07 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/blue_bioshroom_pressure_plate": {
+    "criteria": {
+      "has_blue_bioshroom_planks": "2025-11-01 17:57:07 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/blue_bioshroom_stairs": {
+    "criteria": {
+      "has_blue_bioshroom_planks": "2025-11-01 17:57:07 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/blue_bioshroom_button": {
+    "criteria": {
+      "has_blue_bioshroom_planks": "2025-11-01 17:57:07 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/blue_bioshroom_fence": {
+    "criteria": {
+      "has_blue_bioshroom_planks": "2025-11-01 17:57:07 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/blue_bioshroom_fence_gate": {
+    "criteria": {
+      "has_blue_bioshroom_planks": "2025-11-01 17:57:07 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/blue_bioshroom_sign": {
+    "criteria": {
+      "has_blue_bioshroom_planks": "2025-11-01 17:57:07 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/blue_bioshroom_trapdoor": {
+    "criteria": {
+      "has_blue_bioshroom_planks": "2025-11-01 17:57:07 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:recipes/building_blocks/blue_bioshroom_slab": {
     "criteria": {
       "has_blue_bioshroom_planks": "2025-11-01 17:57:07 +0000"
     },
     "done": true
   },
-  "storagedelight:recipes/decorations/cherry_drawer_with_books": {
+  "regions_unexplored:downer": {
     "criteria": {
-      "has_cherry_trapdoor": "2025-11-01 16:14:26 +0000"
+      "dorcel": "2025-11-01 18:00:05 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/brimwood_planks": {
+    "criteria": {
+      "has_logs": "2025-11-01 18:07:05 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/brimwood_wood": {
+    "criteria": {
+      "has_log": "2025-11-01 18:07:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2025-11-01 18:45:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2025-11-01 18:45:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2025-11-01 18:58:35 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/skillet": {
+    "criteria": {
+      "has_brick": "2025-11-01 18:58:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2025-11-01 18:58:35 +0000"
     },
     "done": true
   },
@@ -5826,15 +5841,82 @@
     },
     "done": true
   },
-  "beautify:trellis": {
+  "minecraft:recipes/transportation/activator_rail": {
     "criteria": {
-      "requirement": "2025-11-01 14:57:15 +0000"
+      "has_rail": "2025-11-02 14:17:55 +0000"
     },
     "done": true
   },
-  "moredelight:recipes/cooking/creamy_pasta_with_chicken_cuts": {
+  "minecraft:recipes/redstone/repeater": {
     "criteria": {
-      "has_any_ingredient": "2025-11-01 15:23:23 +0000"
+      "has_redstone_torch": "2025-11-02 14:24:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2025-11-02 14:01:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2025-11-02 14:25:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2025-11-02 14:17:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2025-11-02 14:25:48 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/controller_rail": {
+    "criteria": {
+      "has_item": "2025-11-02 14:24:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2025-11-02 14:01:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2025-11-02 14:25:48 +0000"
+    },
+    "done": true
+  },
+  "etherology:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-11-02 14:24:23 +0000",
+      "has_the_recipe": "2025-11-02 14:24:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2025-11-02 14:17:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2025-11-02 14:25:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2025-11-02 14:25:48 +0000"
     },
     "done": true
   },
