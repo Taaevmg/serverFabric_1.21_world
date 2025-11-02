@@ -4609,6 +4609,7 @@
     "criteria": {
       "brimwood_log": "2025-11-01 18:07:05 +0000",
       "willow_log": "2025-11-01 15:46:48 +0000",
+      "bamboo_log": "2025-11-02 18:23:26 +0000",
       "pink_bioshroom_stem": "2025-11-01 17:51:34 +0000",
       "blue_bioshroom_stem": "2025-11-01 17:51:19 +0000",
       "green_bioshroom_stem": "2025-11-01 17:11:59 +0000",
@@ -5893,6 +5894,12 @@
   "create:recipes/building_blocks/cut_granite_slab_from_stone_types_granite_stonecutting": {
     "criteria": {
       "has_stone_types_granite": "2025-11-02 17:58:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_planks": {
+    "criteria": {
+      "has_logs": "2025-11-02 18:23:26 +0000"
     },
     "done": true
   },
