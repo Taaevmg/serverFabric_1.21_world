@@ -1990,6 +1990,7 @@
       "minecraft:wither_skeleton": "2025-10-22 12:13:23 +0000",
       "minecraft:bogged": "2025-10-22 15:59:58 +0000",
       "minecraft:hoglin": "2025-10-28 12:40:18 +0000",
+      "minecraft:cave_spider": "2025-11-02 14:50:10 +0000",
       "minecraft:piglin": "2025-11-01 16:36:33 +0000",
       "minecraft:silverfish": "2025-10-20 16:00:14 +0000",
       "minecraft:enderman": "2025-10-22 12:39:33 +0000",
@@ -5841,15 +5842,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2025-11-02 14:35:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2025-11-02 14:40:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/activator_rail": {
     "criteria": {
       "has_rail": "2025-11-02 14:17:55 +0000"
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/glow_berry_custard": {
+    "criteria": {
+      "has_any_ingredient": "2025-11-02 14:51:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/repeater": {
     "criteria": {
       "has_redstone_torch": "2025-11-02 14:24:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2025-11-02 14:53:41 +0000"
+    },
+    "done": true
+  },
+  "moredelight:recipes/food/toast_with_glow_berries": {
+    "criteria": {
+      "has_glow_berries": "2025-11-02 14:51:23 +0000"
     },
     "done": true
   },
@@ -5862,6 +5893,12 @@
   "minecraft:recipes/transportation/hopper_minecart": {
     "criteria": {
       "has_minecart": "2025-11-02 14:25:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2025-11-02 14:35:56 +0000"
     },
     "done": true
   },
@@ -5895,6 +5932,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_deepslate_iron_ore": {
+    "criteria": {
+      "has_deepslate_iron_ore": "2025-11-02 14:49:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2025-11-02 14:53:41 +0000"
+    },
+    "done": true
+  },
   "etherology:recipes/redstone/repeater": {
     "criteria": {
       "has_redstone_torch": "2025-11-02 14:24:23 +0000",
@@ -5917,6 +5966,18 @@
   "minecraft:recipes/transportation/furnace_minecart": {
     "criteria": {
       "has_minecart": "2025-11-02 14:25:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_deepslate_iron_ore": {
+    "criteria": {
+      "has_deepslate_iron_ore": "2025-11-02 14:49:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2025-11-02 14:40:18 +0000"
     },
     "done": true
   },
