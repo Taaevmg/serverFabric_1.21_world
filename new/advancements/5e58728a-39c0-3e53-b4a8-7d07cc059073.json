@@ -136,6 +136,7 @@
       "mauve_log": "2025-10-18 13:03:03 +0000",
       "pine_log": "2025-10-18 10:36:48 +0000",
       "willow_log": "2025-10-18 11:51:10 +0000",
+      "bamboo_log": "2025-11-02 17:36:35 +0000",
       "larch_log": "2025-10-15 18:01:16 +0000",
       "blackwood_log": "2025-10-15 17:44:23 +0000",
       "green_bioshroom_stem": "2025-11-02 14:56:32 +0000",
@@ -5913,6 +5914,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bamboo_planks": {
+    "criteria": {
+      "has_logs": "2025-11-02 17:36:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_bed": {
     "criteria": {
       "has_black_wool": "2025-11-02 17:14:25 +0000"
@@ -5934,6 +5941,12 @@
   "minecraft:recipes/redstone/cherry_pressure_plate": {
     "criteria": {
       "has_planks": "2025-11-02 17:24:53 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/sail_framefrom_conversion": {
+    "criteria": {
+      "has_item": "2025-11-02 17:45:06 +0000"
     },
     "done": true
   },
@@ -5976,6 +5989,12 @@
   "minecraft:recipes/building_blocks/cherry_stairs": {
     "criteria": {
       "has_planks": "2025-11-02 17:24:53 +0000"
+    },
+    "done": true
+  },
+  "create:windmill": {
+    "criteria": {
+      "0": "2025-11-02 17:46:44 +0000"
     },
     "done": true
   },
