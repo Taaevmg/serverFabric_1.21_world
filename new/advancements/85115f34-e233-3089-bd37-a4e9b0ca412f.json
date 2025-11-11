@@ -6312,6 +6312,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2025-11-08 11:57:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2025-11-08 11:57:47 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/crafting/kinetics/yellow_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2025-11-08 13:18:58 +0000"
@@ -6330,18 +6342,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/sentry_armor_trim_smithing_template": {
-    "criteria": {
-      "has_sentry_armor_trim_smithing_template": "2025-11-08 13:19:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/bamboo_fence": {
-    "criteria": {
-      "has_planks": "2025-11-08 16:04:04 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/crafting/kinetics/red_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2025-11-08 13:18:58 +0000"
@@ -6351,36 +6351,6 @@
   "create:recipes/building_blocks/crafting/kinetics/orange_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2025-11-08 13:18:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/bamboo_pressure_plate": {
-    "criteria": {
-      "has_planks": "2025-11-08 16:04:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bamboo_slab": {
-    "criteria": {
-      "has_planks": "2025-11-08 16:04:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/bamboo_button": {
-    "criteria": {
-      "has_planks": "2025-11-08 16:04:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
-    "criteria": {
-      "has_coal_ore": "2025-11-08 11:57:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
-    "criteria": {
-      "has_pink_petals": "2025-11-08 13:19:49 +0000"
     },
     "done": true
   },
@@ -6396,21 +6366,9 @@
     },
     "done": true
   },
-  "waystones:recipes/decorations/mossy_waystone_from_vines": {
-    "criteria": {
-      "has_waystone": "2025-11-08 13:19:49 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/crafting/kinetics/cyan_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2025-11-08 13:18:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
-    "criteria": {
-      "has_coal_ore": "2025-11-08 11:57:47 +0000"
     },
     "done": true
   },
@@ -6432,39 +6390,9 @@
     },
     "done": true
   },
-  "waystones:recipes/decorations/mossy_waystone_from_moss_blocks": {
-    "criteria": {
-      "has_waystone": "2025-11-08 13:19:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/bamboo_sign": {
-    "criteria": {
-      "has_planks": "2025-11-08 16:04:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/bamboo_door": {
-    "criteria": {
-      "has_planks": "2025-11-08 16:04:04 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/crafting/kinetics/light_blue_seat_from_other_seat": {
     "criteria": {
       "has_seat": "2025-11-08 13:18:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/bamboo_trapdoor": {
-    "criteria": {
-      "has_planks": "2025-11-08 16:04:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/sentry_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2025-11-08 13:19:49 +0000"
     },
     "done": true
   },
@@ -6486,6 +6414,84 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/crafting/kinetics/gray_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2025-11-08 13:18:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template": {
+    "criteria": {
+      "has_sentry_armor_trim_smithing_template": "2025-11-08 13:19:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2025-11-08 13:19:49 +0000"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/mossy_waystone_from_vines": {
+    "criteria": {
+      "has_waystone": "2025-11-08 13:19:49 +0000"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/mossy_waystone_from_moss_blocks": {
+    "criteria": {
+      "has_waystone": "2025-11-08 13:19:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-11-08 13:19:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_fence": {
+    "criteria": {
+      "has_planks": "2025-11-08 16:04:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-11-08 16:04:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_slab": {
+    "criteria": {
+      "has_planks": "2025-11-08 16:04:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_button": {
+    "criteria": {
+      "has_planks": "2025-11-08 16:04:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_sign": {
+    "criteria": {
+      "has_planks": "2025-11-08 16:04:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_door": {
+    "criteria": {
+      "has_planks": "2025-11-08 16:04:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-11-08 16:04:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/bamboo_fence_gate": {
     "criteria": {
       "has_planks": "2025-11-08 16:04:04 +0000"
@@ -6495,12 +6501,6 @@
   "minecraft:recipes/building_blocks/bamboo_stairs": {
     "criteria": {
       "has_planks": "2025-11-08 16:04:04 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/crafting/kinetics/gray_seat_from_other_seat": {
-    "criteria": {
-      "has_seat": "2025-11-08 13:18:58 +0000"
     },
     "done": true
   },
