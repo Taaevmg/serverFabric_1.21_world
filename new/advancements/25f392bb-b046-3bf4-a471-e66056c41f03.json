@@ -5634,5 +5634,35 @@
     },
     "done": true
   },
+  "rusticdelight:recipes/food/chocolate_coffee_from_coffee": {
+    "criteria": {
+      "has_coffee": "2025-11-11 13:51:57 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/food/syrup_coffee_from_coffee": {
+    "criteria": {
+      "has_coffee": "2025-11-11 13:51:57 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/food/honey_coffee_from_coffee": {
+    "criteria": {
+      "has_coffee": "2025-11-11 13:51:57 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/food/milk_coffee": {
+    "criteria": {
+      "has_coffee": "2025-11-11 13:51:57 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/cooking/coffee_braised_beef": {
+    "criteria": {
+      "has_any_ingredient": "2025-11-11 13:51:57 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
