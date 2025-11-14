@@ -6630,5 +6630,11 @@
     },
     "done": true
   },
+  "beautify:botanist_workbench": {
+    "criteria": {
+      "requirement": "2025-11-14 17:35:21 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }

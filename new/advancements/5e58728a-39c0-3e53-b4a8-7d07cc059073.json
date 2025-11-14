@@ -6327,6 +6327,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-11-14 17:41:32 +0000"
+    },
+    "done": true
+  },
   "create:mechanical_crafter": {
     "criteria": {
       "0": "2025-11-14 16:11:09 +0000"
@@ -6474,6 +6480,12 @@
   "minecraft:recipes/misc/gold_ingot_from_nuggets": {
     "criteria": {
       "has_gold_nugget": "2025-11-14 13:36:08 +0000"
+    },
+    "done": true
+  },
+  "beautify:progression/hanging_pot": {
+    "criteria": {
+      "obtain": "2025-11-14 17:42:07 +0000"
     },
     "done": true
   },
