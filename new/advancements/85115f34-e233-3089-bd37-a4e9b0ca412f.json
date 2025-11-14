@@ -6625,9 +6625,27 @@
     },
     "done": true
   },
+  "regions_unexplored:recipes/misc/green_bioshroom_from_tall_green_bioshroom": {
+    "criteria": {
+      "has_tall_green_bioshroom": "2025-11-14 19:31:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cherry_hanging_sign": {
     "criteria": {
       "has_stripped_logs": "2025-11-14 16:36:37 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/blackwood_sapling_from_blackwood_shrub": {
+    "criteria": {
+      "has_blackwood_shrub": "2025-11-14 19:28:03 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/pink_bioshroom_from_tall_pink_bioshroom": {
+    "criteria": {
+      "has_tall_pink_bioshroom": "2025-11-14 19:29:00 +0000"
     },
     "done": true
   },
