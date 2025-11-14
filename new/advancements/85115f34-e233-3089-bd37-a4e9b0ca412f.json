@@ -6605,5 +6605,11 @@
     },
     "done": true
   },
+  "regions_unexplored:recipes/misc/purple_dye_from_purple_coneflower": {
+    "criteria": {
+      "has_purple_coneflower": "2025-11-14 14:39:53 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
