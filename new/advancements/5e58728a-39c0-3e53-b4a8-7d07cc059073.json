@@ -6279,6 +6279,30 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-11-14 18:36:52 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/green_bioshroom_fence_gate": {
+    "criteria": {
+      "has_green_bioshroom_planks": "2025-11-14 18:51:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2025-11-14 18:52:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks": {
+    "criteria": {
+      "has_quartz_block": "2025-11-14 18:52:11 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/decorations/mangrove_cabinet": {
     "criteria": {
       "has_mangrove_trapdoor": "2025-11-14 15:19:59 +0000"
@@ -6297,6 +6321,12 @@
     },
     "done": true
   },
+  "regions_unexplored:recipes/decorations/green_bioshroom_fence": {
+    "criteria": {
+      "has_green_bioshroom_planks": "2025-11-14 18:51:43 +0000"
+    },
+    "done": true
+  },
   "storagedelight:recipes/decorations/small_mangrove_drawers": {
     "criteria": {
       "has_mangrove_trapdoor": "2025-11-14 15:19:59 +0000"
@@ -6306,6 +6336,12 @@
   "rusticdelight:recipes/food/sweet_salad": {
     "criteria": {
       "has_syrup": "2025-11-14 16:07:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-11-14 18:36:52 +0000"
     },
     "done": true
   },
@@ -6357,6 +6393,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-11-14 18:36:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_block": {
     "criteria": {
       "has_quartz": "2025-11-14 13:36:08 +0000"
@@ -6369,9 +6411,21 @@
     },
     "done": true
   },
+  "regions_unexplored:recipes/redstone/green_bioshroom_button": {
+    "criteria": {
+      "has_green_bioshroom_planks": "2025-11-14 18:51:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/comparator": {
     "criteria": {
       "has_quartz": "2025-11-14 13:36:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2025-11-14 18:52:11 +0000"
     },
     "done": true
   },
@@ -6411,9 +6465,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-11-14 18:36:52 +0000"
+    },
+    "done": true
+  },
   "rusticdelight:recipes/misc/sugar_from_syrup": {
     "criteria": {
       "has_syrup": "2025-11-14 16:07:40 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/green_bioshroom_stairs": {
+    "criteria": {
+      "has_green_bioshroom_planks": "2025-11-14 18:51:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-11-14 18:52:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-11-14 18:36:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-11-14 18:52:11 +0000"
     },
     "done": true
   },
@@ -6453,9 +6537,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-11-14 18:36:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stone_brick_wall": {
     "criteria": {
       "has_stone_bricks": "2025-11-14 13:31:45 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/green_bioshroom_sign": {
+    "criteria": {
+      "has_green_bioshroom_planks": "2025-11-14 18:51:43 +0000"
     },
     "done": true
   },
@@ -6508,6 +6604,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-11-14 18:52:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_quartz_block": "2025-11-14 18:52:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-11-14 18:52:11 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:recipes/misc/brown_dye_from_cattail": {
     "criteria": {
       "has_cattail": "2025-11-14 14:43:23 +0000"
@@ -6523,6 +6637,12 @@
   "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
       "has_quartz": "2025-11-14 13:36:08 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/green_bioshroom_pressure_plate": {
+    "criteria": {
+      "has_green_bioshroom_planks": "2025-11-14 18:51:43 +0000"
     },
     "done": true
   },
@@ -6556,9 +6676,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_quartz": {
+    "criteria": {
+      "has_quartz_block": "2025-11-14 18:52:11 +0000"
+    },
+    "done": true
+  },
   "create:mechanical_arm": {
     "criteria": {
       "0": "2025-11-14 16:24:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2025-11-14 18:52:11 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/green_bioshroom_door": {
+    "criteria": {
+      "has_green_bioshroom_planks": "2025-11-14 18:51:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-11-14 18:52:11 +0000"
     },
     "done": true
   },
@@ -6577,6 +6721,24 @@
   "create:recipes/misc/crafting/kinetics/crafter_slot_cover": {
     "criteria": {
       "has_item": "2025-11-14 16:08:33 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/green_bioshroom_slab": {
+    "criteria": {
+      "has_green_bioshroom_planks": "2025-11-14 18:51:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-11-14 18:36:52 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/green_bioshroom_trapdoor": {
+    "criteria": {
+      "has_green_bioshroom_planks": "2025-11-14 18:51:43 +0000"
     },
     "done": true
   },
