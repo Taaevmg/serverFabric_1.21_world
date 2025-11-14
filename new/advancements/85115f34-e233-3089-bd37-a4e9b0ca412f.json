@@ -6528,5 +6528,23 @@
     },
     "done": true
   },
+  "regions_unexplored:recipes/misc/black_dye_from_dorcel": {
+    "criteria": {
+      "has_dorcel": "2025-11-14 12:22:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_nether_brick": "2025-11-14 12:24:27 +0000"
+    },
+    "done": true
+  },
+  "spellbound_weapons:used_shield": {
+    "criteria": {
+      "requirement": "2025-11-14 12:26:13 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
