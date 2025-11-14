@@ -6612,5 +6612,11 @@
     },
     "done": true
   },
+  "rusticdelight:recipes/misc/pancake_from_pancakes": {
+    "criteria": {
+      "has_pancakes": "2025-11-14 16:12:26 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
