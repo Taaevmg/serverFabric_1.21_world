@@ -94,6 +94,7 @@
       "silver_birch_forest": "2025-10-20 14:54:15 +0000",
       "shrubland": "2025-10-20 15:42:59 +0000",
       "redstone_abyss": "2025-10-22 12:06:51 +0000",
+      "glistering_meadow": "2025-11-14 13:47:39 +0000",
       "pine_taiga": "2025-10-20 14:21:31 +0000",
       "bayou": "2025-10-22 15:46:36 +0000",
       "blackstone_basin": "2025-10-22 13:18:17 +0000",
@@ -1062,11 +1063,12 @@
   },
   "regions_unexplored:mycologist": {
     "criteria": {
+      "yellow_bioshroom": "2025-11-14 13:41:07 +0000",
       "blue_bioshroom": "2025-11-01 17:50:49 +0000",
       "green_bioshroom": "2025-10-22 15:46:38 +0000",
       "pink_bioshroom": "2025-10-20 14:30:37 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/decorations/brown_banner": {
     "criteria": {
@@ -3567,9 +3569,10 @@
       "mycotoxic_undergrowth": "2025-10-22 13:23:23 +0000",
       "blackstone_basin": "2025-10-22 13:18:17 +0000",
       "infernal_holt": "2025-10-22 12:52:04 +0000",
-      "redstone_abyss": "2025-10-22 12:06:51 +0000"
+      "redstone_abyss": "2025-10-22 12:06:51 +0000",
+      "glistering_meadow": "2025-11-14 13:47:39 +0000"
     },
-    "done": false
+    "done": true
   },
   "regions_unexplored:recipes/redstone/redstone_from_smelting_raw_redstone_block": {
     "criteria": {
@@ -4610,6 +4613,7 @@
       "brimwood_log": "2025-11-01 18:07:05 +0000",
       "willow_log": "2025-11-01 15:46:48 +0000",
       "bamboo_log": "2025-11-02 18:23:26 +0000",
+      "yellow_bioshroom_stem": "2025-11-14 13:40:55 +0000",
       "pink_bioshroom_stem": "2025-11-01 17:51:34 +0000",
       "blue_bioshroom_stem": "2025-11-01 17:51:19 +0000",
       "green_bioshroom_stem": "2025-11-01 17:11:59 +0000",
@@ -5604,10 +5608,11 @@
   "regions_unexplored:ancient_specimens": {
     "criteria": {
       "pink_bioshroom_stem": "2025-11-01 17:51:34 +0000",
+      "yellow_bioshroom_stem": "2025-11-14 13:40:55 +0000",
       "green_bioshroom_stem": "2025-11-01 17:11:59 +0000",
       "blue_bioshroom_stem": "2025-11-01 17:51:19 +0000"
     },
-    "done": false
+    "done": true
   },
   "regions_unexplored:recipes/redstone/green_bioshroom_fence_gate": {
     "criteria": {
@@ -6534,9 +6539,27 @@
     },
     "done": true
   },
+  "regions_unexplored:recipes/building_blocks/yellow_bioshroom_planks": {
+    "criteria": {
+      "has_logs": "2025-11-14 13:40:55 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/tall_yellow_bioshroom": {
+    "criteria": {
+      "has_yellow_bioshroom": "2025-11-14 13:41:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_blasting_nether_gold_ore": {
     "criteria": {
       "has_nether_gold_ore": "2025-11-14 12:32:45 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/yellow_bioshroom_block": {
+    "criteria": {
+      "has_yellow_bioshroom": "2025-11-14 13:41:07 +0000"
     },
     "done": true
   },
@@ -6555,6 +6578,12 @@
   "minecraft:nether/ride_strider": {
     "criteria": {
       "used_warped_fungus_on_a_stick": "2025-11-14 13:11:51 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/yellow_bioshroom_hyphae": {
+    "criteria": {
+      "has_log": "2025-11-14 13:40:55 +0000"
     },
     "done": true
   },
