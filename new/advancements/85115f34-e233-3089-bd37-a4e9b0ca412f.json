@@ -6533,57 +6533,9 @@
     },
     "done": true
   },
-  "minecraft:nether/charge_respawn_anchor": {
-    "criteria": {
-      "charge_respawn_anchor": "2025-11-14 12:31:15 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/building_blocks/yellow_bioshroom_planks": {
-    "criteria": {
-      "has_logs": "2025-11-14 13:40:55 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/decorations/tall_yellow_bioshroom": {
-    "criteria": {
-      "has_yellow_bioshroom": "2025-11-14 13:41:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_blasting_nether_gold_ore": {
-    "criteria": {
-      "has_nether_gold_ore": "2025-11-14 12:32:45 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/building_blocks/yellow_bioshroom_block": {
-    "criteria": {
-      "has_yellow_bioshroom": "2025-11-14 13:41:07 +0000"
-    },
-    "done": true
-  },
   "regions_unexplored:recipes/misc/black_dye_from_dorcel": {
     "criteria": {
       "has_dorcel": "2025-11-14 12:22:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_crying_obsidian": {
-    "criteria": {
-      "crying_obsidian": "2025-11-14 12:27:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/ride_strider": {
-    "criteria": {
-      "used_warped_fungus_on_a_stick": "2025-11-14 13:11:51 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/building_blocks/yellow_bioshroom_hyphae": {
-    "criteria": {
-      "has_log": "2025-11-14 13:40:55 +0000"
     },
     "done": true
   },
@@ -6593,15 +6545,63 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-11-14 12:27:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/respawn_anchor": {
     "criteria": {
       "has_obsidian": "2025-11-14 12:27:51 +0000"
     },
     "done": true
   },
+  "minecraft:nether/charge_respawn_anchor": {
+    "criteria": {
+      "charge_respawn_anchor": "2025-11-14 12:31:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2025-11-14 12:32:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_smelting_nether_gold_ore": {
     "criteria": {
       "has_nether_gold_ore": "2025-11-14 12:32:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/ride_strider": {
+    "criteria": {
+      "used_warped_fungus_on_a_stick": "2025-11-14 13:11:51 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/yellow_bioshroom_planks": {
+    "criteria": {
+      "has_logs": "2025-11-14 13:40:55 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/yellow_bioshroom_hyphae": {
+    "criteria": {
+      "has_log": "2025-11-14 13:40:55 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/tall_yellow_bioshroom": {
+    "criteria": {
+      "has_yellow_bioshroom": "2025-11-14 13:41:07 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/yellow_bioshroom_block": {
+    "criteria": {
+      "has_yellow_bioshroom": "2025-11-14 13:41:07 +0000"
     },
     "done": true
   },
