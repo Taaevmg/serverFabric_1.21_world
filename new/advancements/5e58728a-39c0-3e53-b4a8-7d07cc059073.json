@@ -43,8 +43,10 @@
       "redstone_abyss": "2025-10-22 12:08:18 +0000",
       "boreal_forest": "2025-10-14 09:08:39 +0000",
       "fen": "2025-11-14 11:54:20 +0000",
+      "glistering_meadow": "2025-11-14 13:13:56 +0000",
       "pine_taiga": "2025-10-14 10:48:26 +0000",
       "bayou": "2025-10-14 11:08:13 +0000",
+      "blackstone_basin": "2025-11-14 13:00:23 +0000",
       "autumnal_maple_forest": "2025-10-14 09:10:44 +0000",
       "muddy_river": "2025-10-14 13:12:44 +0000",
       "towering_cliffs": "2025-10-14 10:54:02 +0000",
@@ -145,6 +147,7 @@
       "cypress_log": "2025-11-14 11:58:52 +0000",
       "mauve_log": "2025-10-18 13:03:03 +0000",
       "brimwood_log": "2025-11-14 12:23:42 +0000",
+      "cobalt_log": "2025-11-14 13:02:13 +0000",
       "pine_log": "2025-10-18 10:36:48 +0000",
       "willow_log": "2025-10-18 11:51:10 +0000",
       "bamboo_log": "2025-11-02 17:36:35 +0000",
@@ -750,16 +753,18 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-10-19 13:08:48 +0000",
+      "minecraft:blaze": "2025-11-14 12:55:57 +0000",
       "minecraft:skeleton": "2025-10-14 09:14:32 +0000",
       "minecraft:phantom": "2025-10-18 09:58:21 +0000",
-      "minecraft:stray": "2025-10-18 10:01:31 +0000",
       "minecraft:witch": "2025-10-22 13:37:28 +0000",
+      "minecraft:wither_skeleton": "2025-11-14 13:01:53 +0000",
+      "minecraft:ghast": "2025-10-22 12:16:54 +0000",
+      "minecraft:hoglin": "2025-11-14 12:22:49 +0000",
+      "minecraft:stray": "2025-10-18 10:01:31 +0000",
       "minecraft:spider": "2025-10-14 09:16:57 +0000",
       "minecraft:zombie": "2025-10-14 09:16:38 +0000",
       "minecraft:creeper": "2025-10-14 09:46:40 +0000",
-      "minecraft:zombie_villager": "2025-10-14 09:14:44 +0000",
-      "minecraft:ghast": "2025-10-22 12:16:54 +0000",
-      "minecraft:hoglin": "2025-11-14 12:22:49 +0000"
+      "minecraft:zombie_villager": "2025-10-14 09:14:44 +0000"
     },
     "done": false
   },
@@ -4911,16 +4916,20 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2025-11-14 13:00:44 +0000",
+      "minecraft:nether_wastes": "2025-11-14 13:14:05 +0000",
       "minecraft:soul_sand_valley": "2025-11-14 12:16:21 +0000",
       "minecraft:warped_forest": "2025-10-22 12:07:24 +0000",
       "minecraft:basalt_deltas": "2025-11-14 12:16:27 +0000"
     },
-    "done": false
+    "done": true
   },
   "regions_unexplored:eternal_expedition": {
     "criteria": {
+      "blackstone_basin": "2025-11-14 13:00:23 +0000",
       "infernal_holt": "2025-11-14 12:11:33 +0000",
-      "redstone_abyss": "2025-10-22 12:08:18 +0000"
+      "redstone_abyss": "2025-10-22 12:08:18 +0000",
+      "glistering_meadow": "2025-11-14 13:13:56 +0000"
     },
     "done": false
   },
@@ -6071,15 +6080,99 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2025-11-14 12:43:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2025-11-14 12:43:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2025-11-14 12:43:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2025-11-14 12:43:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2025-11-14 12:43:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2025-11-14 12:43:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-11-14 12:27:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2025-11-14 12:43:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-11-14 13:09:33 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/golden_knife": {
+    "criteria": {
+      "has_gold_ingot": "2025-11-14 12:43:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2025-11-14 12:43:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/ol_betsy": {
     "criteria": {
       "shot_crossbow": "2025-11-14 12:24:48 +0000"
     },
     "done": true
   },
+  "minecraft:nether/distract_piglin": {
+    "criteria": {
+      "distract_piglin": "2025-11-14 12:43:41 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:recipes/building_blocks/brimwood_planks": {
     "criteria": {
       "has_logs": "2025-11-14 12:23:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2025-11-14 12:43:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2025-11-14 12:43:37 +0000"
     },
     "done": true
   },
@@ -6101,15 +6194,39 @@
     },
     "done": true
   },
+  "create:recipes/misc/smelting/scoria": {
+    "criteria": {
+      "has_item": "2025-11-14 13:09:33 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:recipes/decorations/cypress_branch_from_cypress_log": {
     "criteria": {
       "has_log": "2025-11-14 11:58:52 +0000"
     },
     "done": true
   },
+  "regions_unexplored:recipes/building_blocks/cobalt_planks": {
+    "criteria": {
+      "has_logs": "2025-11-14 13:02:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2025-11-14 12:43:37 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:downer": {
     "criteria": {
       "dorcel": "2025-11-14 12:22:54 +0000"
+    },
+    "done": true
+  },
+  "etherology:recipes/tools/golden_battle_pickaxe": {
+    "criteria": {
+      "has_material": "2025-11-14 12:43:37 +0000"
     },
     "done": true
   },
@@ -6128,6 +6245,30 @@
   "regions_unexplored:recipes/building_blocks/cypress_planks": {
     "criteria": {
       "has_logs": "2025-11-14 11:58:52 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/cobalt_wood": {
+    "criteria": {
+      "has_log": "2025-11-14 13:02:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-11-14 13:09:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2025-11-14 12:43:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2025-11-14 12:43:37 +0000"
     },
     "done": true
   },
