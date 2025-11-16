@@ -1110,6 +1110,7 @@
       "apple": "2025-10-14 10:50:22 +0000",
       "bread": "2025-10-14 11:20:12 +0000",
       "cooked_chicken": "2025-10-14 12:26:49 +0000",
+      "potato": "2025-11-16 10:11:51 +0000",
       "sweet_berries": "2025-10-14 12:14:56 +0000",
       "dried_kelp": "2025-10-14 09:20:12 +0000",
       "baked_potato": "2025-10-17 19:57:15 +0000",
@@ -5661,6 +5662,24 @@
   "rusticdelight:recipes/cooking/coffee_braised_beef": {
     "criteria": {
       "has_any_ingredient": "2025-11-11 13:51:57 +0000"
+    },
+    "done": true
+  },
+  "etherology:recipes/food/forest_lantern_crumb_from_campfire": {
+    "criteria": {
+      "has_forest_lantern": "2025-11-16 10:22:36 +0000"
+    },
+    "done": true
+  },
+  "etherology:recipes/food/forest_lantern_crumb": {
+    "criteria": {
+      "has_forest_lantern": "2025-11-16 10:22:36 +0000"
+    },
+    "done": true
+  },
+  "etherology:recipes/food/forest_lantern_crumb_from_smoking": {
+    "criteria": {
+      "has_forest_lantern": "2025-11-16 10:22:36 +0000"
     },
     "done": true
   },
